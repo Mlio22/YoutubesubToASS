@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.searchSource {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.searchSource input {
+    width: calc(80% - 10px);
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.searchSource button {
+    padding: 10px;
+}

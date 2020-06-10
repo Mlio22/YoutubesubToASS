@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<timedtext format="3">
+  <head>
+    <wp id="0" ap="7" ah="0" av="0"/>
+    <wp id="1" ap="1" ah="50" av="0"/>
+    <wp id="2" ap="7" ah="50" av="100"/>
+    <wp id="3" ap="0" ah="0" av="0"/>
+    <wp id="4" ap="2" ah="100" av="0"/>
+    <ws id="0" ju="2" pd="0" sd="0"/>
+    <ws id="1" ju="2" pd="0" sd="0"/>
+    <ws id="2" ju="0" pd="0" sd="0"/>
+    <ws id="3" ju="1" pd="0" sd="0"/>
+    
+    <pen id="0" sz="100" fc="#FEFEFE" fo="0" bo="0"/>
+    <pen id="1" fs="5" sz="100" fc="#FEFEFE" fo="254" bo="0" et="4" ec="#000000"/>
+    <pen id="2" fs="5" sz="100" fc="#FEFEFE" fo="254" bc="#000000" bo="0" et="3" ec="#000000"/>
+    <pen id="3" fs="5" sz="100" fc="#41A2A8" fo="254" bo="0" et="4" ec="#000000"/>
+    <pen id="4" fs="5" sz="100" fc="#41A2A8" fo="254" bc="#000000" bo="0" et="3" ec="#000000"/>
+    <pen id="5" fs="5" sz="100" fc="#C8D578" fo="254" bo="0" et="4" ec="#000000"/>
+    <pen id="6" fs="5" sz="100" fc="#C8D578" fo="254" bc="#000000" bo="0" et="3" ec="#000000"/>
+    <pen id="7" fs="5" sz="100" fc="#BABABA" fo="254" bo="0" et="4" ec="#000000"/>
+    <pen id="8" fs="5" sz="100" fc="#BABABA" fo="254" bc="#000000" bo="0" et="3" ec="#000000"/>
+    <pen id="9" fs="5" sz="100" fc="#C83DB6" fo="254" bo="0" et="4" ec="#000000"/>
+    <pen id="10" fs="5" sz="100" fc="#C83DB6" fo="254" bc="#000000" bo="0" et="3" ec="#000000"/>
+    <pen id="11" fs="5" sz="100" fc="#F92C4F" fo="254" bo="0" et="4" ec="#000000"/>
+    <pen id="12" fs="5" sz="100" fc="#F92C4F" fo="254" bc="#000000" bo="0" et="3" ec="#000000"/>
+    <pen id="13" fs="5" sz="100" fc="#000000" fo="254" bo="0" et="4" ec="#FFFFFF"/>
+    <pen id="14" fs="5" sz="100" fc="#000000" fo="254" bc="#000000" bo="0" et="3" ec="#FFFFFF"/>
+    <pen id="15" fs="5" sz="100" fc="#FEFEFE" fo="0" bc="#000000" bo="0"/>
+  </head>
+  <body>
+    <p t="850" d="5150" p="1" wp="1" ws="1">Hazukashikunai nai yō na</p>
+    <p t="850" d="5150" p="2" wp="1" ws="1">Hazukashikunai nai yō na</p>
+    <p t="850" d="5150" p="1" wp="2" ws="1">bukannya aku terlihat malu</p>
+    <p t="850" d="5150" p="2" wp="2" ws="1">bukannya aku terlihat malu</p>
+    <p t="2560" d="320" p="1" wp="3" ws="2">nai</p>
+    <p t="2560" d="320" p="2" wp="3" ws="2">nai</p>
+    <p t="3010" d="360" p="1" wp="4" ws="3">nai</p>
+    <p t="3010" d="360" p="2" wp="4" ws="3">nai</p>
+    <p t="3450" d="380" p="1" wp="3" ws="2">nai</p>
+    <p t="3450" d="380" p="2" wp="3" ws="2">nai</p>
+    <p t="3830" d="420" p="1" wp="4" ws="3">nai</p>
+    <p t="3830" d="420" p="2" wp="4" ws="3">nai</p>
+    <p t="4250" d="410" p="1" wp="3" ws="2">nai</p>
+    <p t="4250" d="410" p="2" wp="3" ws="2">nai</p>
+    <p t="4660" d="440" p="1" wp="4" ws="3">nai</p>
+    <p t="4660" d="440" p="2" wp="4" ws="3">nai</p>
+    <p t="6060" d="1600" p="1" wp="1" ws="1">kidzukai wo</p>
+    <p t="6060" d="1600" p="2" wp="1" ws="1">kidzukai wo</p>
+    <p t="6060" d="1600" p="1" wp="2" ws="1">atau peduli</p>
+    <p t="6060" d="1600" p="2" wp="2" ws="1">atau peduli</p>
+    <p t="7660" d="5180" p="1" wp="1" ws="1">sonna no iya dakara sa</p>
+    <p t="7660" d="5180" p="2" wp="1" ws="1">sonna no iya dakara sa</p>
+    <p t="7660" d="5180" p="1" wp="2" ws="1">tapi karena aku merasa sangat enggan</p>
+    <p t="7660" d="5180" p="2" wp="2" ws="1">tapi karena aku merasa sangat enggan</p>
+    <p t="9350" d="410" p="1" wp="3" ws="2">iya</p>
+    <p t="9350" d="410" p="2" wp="3" ws="2">iya</p>
+    <p t="9760" d="470" p="1" wp="4" ws="3">iya</p>
+    <p t="9760" d="470" p="2" wp="4" ws="3">iya</p>
+    <p t="10230" d="370" p="1" wp="3" ws="2">iya</p>
+    <p t="10230" d="370" p="2" wp="3" ws="2">iya</p>
+    <p t="10600" d="400" p="1" wp="4" ws="3">iya</p>
+    <p t="10600" d="400" p="2" wp="4" ws="3">iya</p>
+    <p t="11000" d="380" p="1" wp="3" ws="2">iya</p>
+    <p t="11000" d="380" p="2" wp="3" ws="2">iya</p>
+    <p t="11380" d="470" p="1" wp="4" ws="3">iya</p>
+    <p t="11380" d="470" p="2" wp="4" ws="3">iya</p>
+    <p t="12840" d="2040" p="1" wp="1" ws="1">wasurete kyou wa</p>
+    <p t="12840" d="2040" p="2" wp="1" ws="1">wasurete kyou wa</p>
+    <p t="12840" d="2040" p="1" wp="2" ws="1">kulupakan hari ini</p>
+    <p t="12840" d="2040" p="2" wp="2" ws="1">kulupakan hari ini</p>
+    <p t="15000" d="600" p="1" wp="1" ws="1">[watashi dake no shūmatsu wo]</p>
+    <p t="15000" d="600" p="2" wp="1" ws="1">[watashi dake no shūmatsu wo]</p>
+    <p t="15000" d="600" p="1" wp="2" ws="1">[akhir pekan bagi diriku sendiri]</p>
+    <p t="15000" d="600" p="2" wp="2" ws="1">[akhir pekan bagi diriku sendiri]</p>
+    <p t="15680" d="7070" p="3" wp="1" ws="1">[hitori tabi]</p>
+    <p t="15680" d="7070" p="4" wp="1" ws="1">[hitori tabi]</p>
+    <p t="15680" d="7070" p="3" wp="2" ws="1">[perjalanan solo]</p>
+    <p t="15680" d="7070" p="4" wp="2" ws="1">[perjalanan solo]</p>
+    <p t="22750" d="5130" wp="1" ws="1"><s p="3">Lagu : Wataru Sena |</s>​<s p="5">| Penyanyi : Sana</s></p>
+    <p t="22750" d="5130" wp="1" ws="1"><s p="4">Lagu : Wataru Sena |</s>​<s p="6">| Penyanyi : Sana</s></p>
+    <p t="22750" d="5130" wp="2" ws="1"><s p="5">Ilustrasi : Mitsuki Sanagi |</s>​<s p="3">| Video : House</s></p>
+    <p t="22750" d="5130" wp="2" ws="1"><s p="6">Ilustrasi : Mitsuki Sanagi |</s>​<s p="4">| Video : House</s></p>
+    <p t="29440" d="2530" wp="1" ws="1"><s p="3">shū</s>​<s p="5">matsu </s><s p="7">wa </s><s p="5">on</s><s p="3">sen</s></p>
+    <p t="29440" d="2530" wp="1" ws="1"><s p="4">shū</s>​<s p="6">matsu </s><s p="8">wa </s><s p="6">on</s><s p="4">sen</s></p>
+    <p t="29440" d="2530" p="1" wp="2" ws="1">Onsen di akhir pekan</p>
+    <p t="29440" d="2530" p="2" wp="2" ws="1">Onsen di akhir pekan</p>
+    <p t="31970" d="2000" wp="1" ws="1"><s p="3">ta</s>​<s p="5">ma </s><s p="7">ni </s><s p="3">wa </s><s p="5">i</s><s p="7">i</s><s p="3">de</s><s p="5">sho</s></p>
+    <p t="31970" d="2000" wp="1" ws="1"><s p="4">ta</s>​<s p="6">ma </s><s p="8">ni </s><s p="4">wa </s><s p="6">i</s><s p="8">i</s><s p="4">de</s><s p="6">sho</s></p>
+    <p t="31970" d="2000" p="1" wp="2" ws="1">kadang kadang boleh juga kan</p>
+    <p t="31970" d="2000" p="2" wp="2" ws="1">kadang kadang boleh juga kan</p>
+    <p t="34040" d="2360" wp="1" ws="1"><s p="3">san</s>​<s p="5">zai </s><s p="7">wa </s><s p="3">tō</s><s p="5">shi</s></p>
+    <p t="34040" d="2360" wp="1" ws="1"><s p="4">san</s>​<s p="6">zai </s><s p="8">wa </s><s p="4">tō</s><s p="6">shi</s></p>
+    <p t="34040" d="2360" p="1" wp="2" ws="1">pengeluaran adalah investasi</p>
+    <p t="34040" d="2360" p="2" wp="2" ws="1">pengeluaran adalah investasi</p>
+    <p t="36400" d="2400" wp="1" ws="1"><s p="3">watashi </s>​<s p="5">t</s><s p="7">te </s><s p="3">tanjun</s></p>
+    <p t="36400" d="2400" wp="1" ws="1"><s p="4">watashi </s>​<s p="6">t</s><s p="8">te </s><s p="4">tanjun</s></p>
+    <p t="36400" d="2400" p="1" wp="2" ws="1">aku ini simpel</p>
+    <p t="36400" d="2400" p="2" wp="2" ws="1">aku ini simpel</p>
+    <p t="38800" d="2350" wp="1" ws="1"><s p="3">ka</s>​<s p="5">men </s><s p="7">wa </s><s p="5">hazu</s><s p="3">shi</s><s p="5">te</s></p>
+    <p t="38800" d="2350" wp="1" ws="1"><s p="4">ka</s>​<s p="6">men </s><s p="8">wa </s><s p="6">hazu</s><s p="4">shi</s><s p="6">te</s></p>
+    <p t="38800" d="2350" p="1" wp="2" ws="1">lepaskan topeng</p>
+    <p t="38800" d="2350" p="2" wp="2" ws="1">lepaskan topeng</p>
+    <p t="41150" d="2000" wp="1" ws="1"><s p="3">hazu </s>​<s p="5">wa </s><s p="7">o</s><s p="3">i</s><s p="5">te</s><s p="7">t</s><s p="3">te</s></p>
+    <p t="41150" d="2000" wp="1" ws="1"><s p="4">hazu </s>​<s p="6">wa </s><s p="8">o</s><s p="4">i</s><s p="6">te</s><s p="8">t</s><s p="4">te</s></p>
+    <p t="41150" d="2000" p="1" wp="2" ws="1">dan tinggalkan rasa malu</p>
+    <p t="41150" d="2000" p="2" wp="2" ws="1">dan tinggalkan rasa malu</p>
+    <p t="43150" d="2400" wp="1" ws="1"><s p="3">ka</s>​<s p="5">me</s><s p="7">ra </s><s p="3">ka</s><s p="5">za</s><s p="7">shi</s><s p="3">te</s></p>
+    <p t="43150" d="2400" wp="1" ws="1"><s p="4">ka</s>​<s p="6">me</s><s p="8">ra </s><s p="4">ka</s><s p="6">za</s><s p="8">shi</s><s p="4">te</s></p>
+    <p t="43150" d="2400" p="1" wp="2" ws="1">kupegang kamera</p>
+    <p t="43150" d="2400" p="2" wp="2" ws="1">kupegang kamera</p>
+    <p t="45550" d="2450" wp="1" ws="1"><s p="3">ki</s>​<s p="5">oku </s><s p="7">wo </s><s p="5">noko</s><s p="3">su </s><s p="5">no</s></p>
+    <p t="45550" d="2450" wp="1" ws="1"><s p="4">ki</s>​<s p="6">oku </s><s p="8">wo </s><s p="6">noko</s><s p="4">su </s><s p="6">no</s></p>
+    <p t="45550" d="2450" p="1" wp="2" ws="1">sembari mengingat</p>
+    <p t="45550" d="2450" p="2" wp="2" ws="1">sembari mengingat</p>
+    <p t="48000" d="2150" wp="1" ws="1"><s p="3">ai</s>​<s p="5">mai</s><s p="7">na </s><s p="5">shō</s><s p="3">mei</s></p>
+    <p t="48000" d="2150" wp="1" ws="1"><s p="4">ai</s>​<s p="6">mai</s><s p="8">na </s><s p="6">shō</s><s p="4">mei</s></p>
+    <p t="48000" d="2150" p="1" wp="2" ws="1">ingatan yang buram</p>
+    <p t="48000" d="2150" p="2" wp="2" ws="1">ingatan yang buram</p>
+    <p t="50150" d="2360" wp="1" ws="1"><s p="3">kon</s>​<s p="5">ya </s><s p="7">mo </s><s p="5">hito</s><s p="3">ri</s></p>
+    <p t="50150" d="2360" wp="1" ws="1"><s p="4">kon</s>​<s p="6">ya </s><s p="8">mo </s><s p="6">hito</s><s p="4">ri</s></p>
+    <p t="50150" d="2360" p="1" wp="2" ws="1">malam ini juga, sendirian</p>
+    <p t="50150" d="2360" p="2" wp="2" ws="1">malam ini juga, sendirian</p>
+    <p t="52510" d="4510" wp="1" ws="1"><s p="3">ki </s>​<s p="5">no </s><s p="7">nu</s><s p="5">ke</s><s p="3">ta </s><s p="7">j</s><s p="3">yu</s><s p="5">u</s><s p="3">su wo kata</s><s p="5">te </s><s p="7">ni </s><s p="5">warat</s><s p="3">te</s></p>
+    <p t="52510" d="4510" wp="1" ws="1"><s p="4">ki </s>​<s p="6">no </s><s p="8">nu</s><s p="6">ke</s><s p="4">ta </s><s p="8">j</s><s p="4">yu</s><s p="6">u</s><s p="4">su wo kata</s><s p="6">te </s><s p="8">ni </s><s p="6">warat</s><s p="4">te</s></p>
+    <p t="52510" d="4510" p="1" wp="2" ws="1">kutertawa dengan jus di salah satu tanganku</p>
+    <p t="52510" d="4510" p="2" wp="2" ws="1">kutertawa dengan jus di salah satu tanganku</p>
+    <p t="57020" d="2000" p="1" wp="1" ws="1">"kawaisō ne"</p>
+    <p t="57020" d="2000" p="2" wp="1" ws="1">"kawaisō ne"</p>
+    <p t="57020" d="2000" p="1" wp="2" ws="1">"sungguh kasihan ya?"</p>
+    <p t="57020" d="2000" p="2" wp="2" ws="1">"sungguh kasihan ya?"</p>
+    <p t="59020" d="1640" p="1" wp="1" ws="1">watashi wa</p>
+    <p t="59020" d="1640" p="2" wp="1" ws="1">watashi wa</p>
+    <p t="59020" d="1640" p="1" wp="2" ws="1">diriku ini</p>
+    <p t="59020" d="1640" p="2" wp="2" ws="1">diriku ini</p>
+    <p t="60660" d="2000" p="1" wp="1" ws="1">"Wakai kara ne"</p>
+    <p t="60660" d="2000" p="2" wp="1" ws="1">"Wakai kara ne"</p>
+    <p t="60660" d="2000" p="1" wp="2" ws="1">"karena kamu masih muda"</p>
+    <p t="60660" d="2000" p="2" wp="2" ws="1">"karena kamu masih muda"</p>
+    <p t="62660" d="1470" p="1" wp="1" ws="1">chigau yo</p>
+    <p t="62660" d="1470" p="2" wp="1" ws="1">chigau yo</p>
+    <p t="62660" d="1470" p="1" wp="2" ws="1">tidak lho</p>
+    <p t="62660" d="1470" p="2" wp="2" ws="1">tidak lho</p>
+    <p t="64130" d="5510" p="1" wp="1" ws="1">watashi sonna fushiawase-sō ni mieru no?</p>
+    <p t="64130" d="5510" p="2" wp="1" ws="1">watashi sonna fushiawase-sō ni mieru no?</p>
+    <p t="64130" d="5510" p="1" wp="2" ws="1">apakah aku terlihat se-menyedihkan itu bagimu?</p>
+    <p t="64130" d="5510" p="2" wp="2" ws="1">apakah aku terlihat se-menyedihkan itu bagimu?</p>
+    <p t="71460" d="6310" wp="1" ws="1"><s p="3">hito</s>​<s p="5">ri </s><s p="7">wa </s><s p="5">tsu</s><s p="3">ra</s><s p="7">i </s><s p="3">ko</s><s p="5">to </s><s p="3">bakari </s><s p="5">j</s><s p="7">a</s><s p="5">nai</s></p>
+    <p t="71460" d="6310" wp="1" ws="1"><s p="4">hito</s>​<s p="6">ri </s><s p="8">wa </s><s p="6">tsu</s><s p="4">ra</s><s p="8">i </s><s p="4">ko</s><s p="6">to </s><s p="4">bakari </s><s p="6">j</s><s p="8">a</s><s p="6">nai</s></p>
+    <p t="71460" d="6310" p="1" wp="2" ws="1">sendirian itu tidak selalu tentang hal yang menyedihkan</p>
+    <p t="71460" d="6310" p="2" wp="2" ws="1">sendirian itu tidak selalu tentang hal yang menyedihkan</p>
+    <p t="72900" d="340" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="72900" d="340" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="73240" d="440" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="73240" d="440" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="73680" d="420" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="73680" d="420" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="74100" d="460" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="74100" d="460" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="74560" d="490" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="74560" d="490" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="75050" d="430" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="75050" d="430" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="77770" d="4560" wp="1" ws="1"><s p="3">jama </s>​<s p="7">mo </s><s p="5">sarenai</s></p>
+    <p t="77770" d="4560" wp="1" ws="1"><s p="4">jama </s>​<s p="8">mo </s><s p="6">sarenai</s></p>
+    <p t="77770" d="4560" p="1" wp="2" ws="1">aku juga tidak mau diganggu</p>
+    <p t="77770" d="4560" p="2" wp="2" ws="1">aku juga tidak mau diganggu</p>
+    <p t="79650" d="470" p="7" wp="3" ws="2">nai</p>
+    <p t="79650" d="470" p="8" wp="3" ws="2">nai</p>
+    <p t="80120" d="440" p="7" wp="4" ws="3">nai</p>
+    <p t="80120" d="440" p="8" wp="4" ws="3">nai</p>
+    <p t="80560" d="450" p="7" wp="3" ws="2">nai</p>
+    <p t="80560" d="450" p="8" wp="3" ws="2">nai</p>
+    <p t="81010" d="430" p="7" wp="4" ws="3">nai</p>
+    <p t="81010" d="430" p="8" wp="4" ws="3">nai</p>
+    <p t="81440" d="410" p="7" wp="3" ws="2">nai</p>
+    <p t="81440" d="410" p="8" wp="3" ws="2">nai</p>
+    <p t="81850" d="480" p="7" wp="4" ws="3">nai</p>
+    <p t="81850" d="480" p="8" wp="4" ws="3">nai</p>
+    <p t="82330" d="2270" wp="1" ws="1"><s p="3">koko </s>​<s p="7">wa </s><s p="5">ii </s><s p="3">toko </s><s p="7">da</s></p>
+    <p t="82330" d="2270" wp="1" ws="1"><s p="4">koko </s>​<s p="8">wa </s><s p="6">ii </s><s p="4">toko </s><s p="8">da</s></p>
+    <p t="82330" d="2270" p="1" wp="2" ws="1">karena disini tempat yang nyaman</p>
+    <p t="82330" d="2270" p="2" wp="2" ws="1">karena disini tempat yang nyaman</p>
+    <p t="84600" d="6880" p="3" wp="1" ws="1">watashi no shiranai sekai ga aru yō ni</p>
+    <p t="84600" d="6880" p="4" wp="1" ws="1">watashi no shiranai sekai ga aru yō ni</p>
+    <p t="84600" d="6880" p="1" wp="2" ws="1">diriku juga punya hal yang tidak kuketahui</p>
+    <p t="84600" d="6880" p="2" wp="2" ws="1">diriku juga punya hal yang tidak kuketahui</p>
+    <p t="86520" d="360" p="3" wp="3" ws="2">nai</p>
+    <p t="86520" d="360" p="4" wp="3" ws="2">nai</p>
+    <p t="86880" d="380" p="3" wp="4" ws="3">nai</p>
+    <p t="86880" d="380" p="4" wp="4" ws="3">nai</p>
+    <p t="87330" d="410" p="3" wp="3" ws="2">nai</p>
+    <p t="87330" d="410" p="4" wp="3" ws="2">nai</p>
+    <p t="87740" d="460" p="3" wp="4" ws="3">nai</p>
+    <p t="87740" d="460" p="4" wp="4" ws="3">nai</p>
+    <p t="88290" d="370" p="3" wp="3" ws="2">nai</p>
+    <p t="88290" d="370" p="4" wp="3" ws="2">nai</p>
+    <p t="88740" d="360" p="3" wp="4" ws="3">nai</p>
+    <p t="88740" d="360" p="4" wp="4" ws="3">nai</p>
+    <p t="91480" d="7320" p="3" wp="1" ws="1">kimi no shiranai sekai ga kitto aru no deshō?</p>
+    <p t="91480" d="7320" p="4" wp="1" ws="1">kimi no shiranai sekai ga kitto aru no deshō?</p>
+    <p t="91480" d="7320" p="1" wp="2" ws="1">kamu pasti begitu juga kan?</p>
+    <p t="91480" d="7320" p="2" wp="2" ws="1">kamu pasti begitu juga kan?</p>
+    <p t="93390" d="390" p="3" wp="3" ws="2">nai</p>
+    <p t="93390" d="390" p="4" wp="3" ws="2">nai</p>
+    <p t="93780" d="400" p="3" wp="4" ws="3">nai</p>
+    <p t="93780" d="400" p="4" wp="4" ws="3">nai</p>
+    <p t="94230" d="400" p="3" wp="3" ws="2">nai</p>
+    <p t="94230" d="400" p="4" wp="3" ws="2">nai</p>
+    <p t="94630" d="460" p="3" wp="4" ws="3">nai</p>
+    <p t="94630" d="460" p="4" wp="4" ws="3">nai</p>
+    <p t="113480" d="2230" p="1" wp="1" ws="1">shūmatsu no kensō</p>
+    <p t="113480" d="2230" p="2" wp="1" ws="1">shūmatsu no kensō</p>
+    <p t="113480" d="2230" p="1" wp="2" ws="1">kesibukan diakhir pekan</p>
+    <p t="113480" d="2230" p="2" wp="2" ws="1">kesibukan diakhir pekan</p>
+    <p t="115820" d="2400" p="1" wp="1" ws="1">sore chigau seifuku</p>
+    <p t="115820" d="2400" p="2" wp="1" ws="1">sore chigau seifuku</p>
+    <p t="115820" d="2400" p="1" wp="2" ws="1">orang - orang dengan seragam berbeda</p>
+    <p t="115820" d="2400" p="2" wp="2" ws="1">orang - orang dengan seragam berbeda</p>
+    <p t="118220" d="2220" wp="1" ws="1"><s p="9">nakayoshi-san </s>​<s p="1">ne</s></p>
+    <p t="118220" d="2220" wp="1" ws="1"><s p="10">nakayoshi-san </s>​<s p="2">ne</s></p>
+    <p t="118220" d="2220" p="1" wp="2" ws="1">namun terlihat akrab</p>
+    <p t="118220" d="2220" p="2" wp="2" ws="1">namun terlihat akrab</p>
+    <p t="120440" d="2330" wp="1" ws="1"><s p="1">hito (tanin) no </s>​<s p="9">egao </s><s p="1">ni</s></p>
+    <p t="120440" d="2330" wp="1" ws="1"><s p="2">hito (tanin) no </s>​<s p="10">egao </s><s p="2">ni</s></p>
+    <p t="120440" d="2330" p="1" wp="2" ws="1">sementara bagiku, tersenyum kepada orang lain</p>
+    <p t="120440" d="2330" p="2" wp="2" ws="1">sementara bagiku, tersenyum kepada orang lain</p>
+    <p t="122770" d="4430" p="1" wp="1" ws="1">yatara binkan ni natteru ki ga shita</p>
+    <p t="122770" d="4430" p="2" wp="1" ws="1">yatara binkan ni natteru ki ga shita</p>
+    <p t="122770" d="4430" p="1" wp="2" ws="1">terasa sangat sensitif</p>
+    <p t="122770" d="4430" p="2" wp="2" ws="1">terasa sangat sensitif</p>
+    <p t="127200" d="2420" wp="1" ws="1"><s p="7">nantonaku </s>​<s p="3">wara</s><s p="7">tte</s></p>
+    <p t="127200" d="2420" wp="1" ws="1"><s p="8">nantonaku </s>​<s p="4">wara</s><s p="8">tte</s></p>
+    <p t="127200" d="2420" p="1" wp="2" ws="1">orang lain tertawa tanpa alasan</p>
+    <p t="127200" d="2420" p="2" wp="2" ws="1">orang lain tertawa tanpa alasan</p>
+    <p t="129620" d="2620" p="7" wp="1" ws="1">soko ni tokekomu no</p>
+    <p t="129620" d="2620" p="8" wp="1" ws="1">soko ni tokekomu no</p>
+    <p t="129620" d="2620" p="1" wp="2" ws="1">dan saling berbaur</p>
+    <p t="129620" d="2620" p="2" wp="2" ws="1">dan saling berbaur</p>
+    <p t="132240" d="1870" wp="1" ws="1"><s p="3">aiso </s>​<s p="7">wo tsukatte</s></p>
+    <p t="132240" d="1870" wp="1" ws="1"><s p="4">aiso </s>​<s p="8">wo tsukatte</s></p>
+    <p t="132240" d="1870" p="1" wp="2" ws="1">dengan akrabnya</p>
+    <p t="132240" d="1870" p="2" wp="2" ws="1">dengan akrabnya</p>
+    <p t="134110" d="2170" p="7" wp="1" ws="1">konya mo hitori</p>
+    <p t="134110" d="2170" p="8" wp="1" ws="1">konya mo hitori</p>
+    <p t="134110" d="2170" p="1" wp="2" ws="1">malam ini juga, sendirian</p>
+    <p t="134110" d="2170" p="2" wp="2" ws="1">malam ini juga, sendirian</p>
+    <p t="136280" d="4630" wp="1" ws="1"><s p="3">omoide </s>​<s p="7">ni itsumo </s><s p="3">suku</s><s p="7">waretetanda</s></p>
+    <p t="136280" d="4630" wp="1" ws="1"><s p="4">omoide </s>​<s p="8">ni itsumo </s><s p="4">suku</s><s p="8">waretetanda</s></p>
+    <p t="136280" d="4630" p="1" wp="2" ws="1">kenangan lama selalu menyelamatkanku</p>
+    <p t="136280" d="4630" p="2" wp="2" ws="1">kenangan lama selalu menyelamatkanku</p>
+    <p t="140910" d="2000" p="1" wp="1" ws="1">"tsurain desho?"</p>
+    <p t="140910" d="2000" p="2" wp="1" ws="1">"tsurain desho?"</p>
+    <p t="140910" d="2000" p="1" wp="2" ws="1">"pasti sulit kan?"</p>
+    <p t="140910" d="2000" p="2" wp="2" ws="1">"pasti sulit kan?"</p>
+    <p t="142910" d="1750" p="1" wp="1" ws="1">watashi wa</p>
+    <p t="142910" d="1750" p="2" wp="1" ws="1">watashi wa</p>
+    <p t="142910" d="1750" p="1" wp="2" ws="1">diriku ini</p>
+    <p t="142910" d="1750" p="2" wp="2" ws="1">diriku ini</p>
+    <p t="144660" d="2000" p="1" wp="1" ws="1">"tsuyogari desho?"</p>
+    <p t="144660" d="2000" p="2" wp="1" ws="1">"tsuyogari desho?"</p>
+    <p t="144660" d="2000" p="1" wp="2" ws="1">"kau ingin terlihat tangguh kan?"</p>
+    <p t="144660" d="2000" p="2" wp="2" ws="1">"kau ingin terlihat tangguh kan?"</p>
+    <p t="146660" d="1560" p="1" wp="1" ws="1">chigau yo</p>
+    <p t="146660" d="1560" p="2" wp="1" ws="1">chigau yo</p>
+    <p t="146660" d="1560" p="1" wp="2" ws="1">tidak lho</p>
+    <p t="146660" d="1560" p="2" wp="2" ws="1">tidak lho</p>
+    <p t="148220" d="5200" p="1" wp="1" ws="1">watashi sonna ijippari-sō ni mieru no?</p>
+    <p t="148220" d="5200" p="2" wp="1" ws="1">watashi sonna ijippari-sō ni mieru no?</p>
+    <p t="148220" d="5200" p="1" wp="2" ws="1">apakah aku terlihat se-keras kepala itu bagimu?</p>
+    <p t="148220" d="5200" p="2" wp="2" ws="1">apakah aku terlihat se-keras kepala itu bagimu?</p>
+    <p t="153420" d="6710" wp="1" ws="1"><s p="3">hito</s>​<s p="5">ri </s><s p="7">wa </s><s p="5">tsu</s><s p="3">ra</s><s p="7">i </s><s p="3">ko</s><s p="5">to </s><s p="3">bakari </s><s p="5">j</s><s p="7">a</s><s p="5">nai</s></p>
+    <p t="153420" d="6710" wp="1" ws="1"><s p="4">hito</s>​<s p="6">ri </s><s p="8">wa </s><s p="6">tsu</s><s p="4">ra</s><s p="8">i </s><s p="4">ko</s><s p="6">to </s><s p="4">bakari </s><s p="6">j</s><s p="8">a</s><s p="6">nai</s></p>
+    <p t="153420" d="6710" p="1" wp="2" ws="1">sendirian itu tidak selalu tentang hal yang menyedihkan</p>
+    <p t="153420" d="6710" p="2" wp="2" ws="1">sendirian itu tidak selalu tentang hal yang menyedihkan</p>
+    <p t="155170" d="420" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="155170" d="420" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="155660" d="420" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="155660" d="420" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="156080" d="420" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="156080" d="420" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="156500" d="400" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="156500" d="400" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="156990" d="310" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="156990" d="310" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="157300" d="450" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="157300" d="450" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="160130" d="4400" wp="1" ws="1"><s p="3">ki </s>​<s p="7">mo </s><s p="3">tsuka</s><s p="7">wa</s><s p="5">nai</s></p>
+    <p t="160130" d="4400" wp="1" ws="1"><s p="4">ki </s>​<s p="8">mo </s><s p="4">tsuka</s><s p="8">wa</s><s p="6">nai</s></p>
+    <p t="160130" d="4400" p="1" wp="2" ws="1">aku juga tidak terlalu peduli</p>
+    <p t="160130" d="4400" p="2" wp="2" ws="1">aku juga tidak terlalu peduli</p>
+    <p t="161880" d="380" p="7" wp="3" ws="2">nai</p>
+    <p t="161880" d="380" p="8" wp="3" ws="2">nai</p>
+    <p t="162260" d="410" p="7" wp="4" ws="3">nai</p>
+    <p t="162260" d="410" p="8" wp="4" ws="3">nai</p>
+    <p t="162670" d="380" p="7" wp="3" ws="2">nai</p>
+    <p t="162670" d="380" p="8" wp="3" ws="2">nai</p>
+    <p t="163110" d="370" p="7" wp="4" ws="3">nai</p>
+    <p t="163110" d="370" p="8" wp="4" ws="3">nai</p>
+    <p t="163480" d="380" p="7" wp="3" ws="2">nai</p>
+    <p t="163480" d="380" p="8" wp="3" ws="2">nai</p>
+    <p t="163930" d="450" p="7" wp="4" ws="3">nai</p>
+    <p t="163930" d="450" p="8" wp="4" ws="3">nai</p>
+    <p t="164530" d="2440" wp="1" ws="1"><s p="3">koko </s>​<s p="7">wa </s><s p="5">ii </s><s p="3">toko </s><s p="7">da</s></p>
+    <p t="164530" d="2440" wp="1" ws="1"><s p="4">koko </s>​<s p="8">wa </s><s p="6">ii </s><s p="4">toko </s><s p="8">da</s></p>
+    <p t="164530" d="2440" p="1" wp="2" ws="1">karena disini tempat yang nyaman</p>
+    <p t="164530" d="2440" p="2" wp="2" ws="1">karena disini tempat yang nyaman</p>
+    <p t="166970" d="6830" p="3" wp="1" ws="1">watashi no shiranai sekai ga aru yō ni</p>
+    <p t="166970" d="6830" p="4" wp="1" ws="1">watashi no shiranai sekai ga aru yō ni</p>
+    <p t="166970" d="6830" p="1" wp="2" ws="1">diriku juga punya hal yang tidak kuketahui</p>
+    <p t="166970" d="6830" p="2" wp="2" ws="1">diriku juga punya hal yang tidak kuketahui</p>
+    <p t="168820" d="360" p="3" wp="3" ws="2">nai</p>
+    <p t="168820" d="360" p="4" wp="3" ws="2">nai</p>
+    <p t="169240" d="380" p="3" wp="4" ws="3">nai</p>
+    <p t="169240" d="380" p="4" wp="4" ws="3">nai</p>
+    <p t="169680" d="380" p="3" wp="3" ws="2">nai</p>
+    <p t="169680" d="380" p="4" wp="3" ws="2">nai</p>
+    <p t="170130" d="440" p="3" wp="4" ws="3">nai</p>
+    <p t="170130" d="440" p="4" wp="4" ws="3">nai</p>
+    <p t="170650" d="400" p="3" wp="3" ws="2">nai</p>
+    <p t="170650" d="400" p="4" wp="3" ws="2">nai</p>
+    <p t="171110" d="330" p="3" wp="4" ws="3">nai</p>
+    <p t="171110" d="330" p="4" wp="4" ws="3">nai</p>
+    <p t="173800" d="7310" p="3" wp="1" ws="1">kimi no shiranai sekai ga kitto aru no deshō?</p>
+    <p t="173800" d="7310" p="4" wp="1" ws="1">kimi no shiranai sekai ga kitto aru no deshō?</p>
+    <p t="173800" d="7310" p="1" wp="2" ws="1">kamu pasti begitu juga kan?</p>
+    <p t="173800" d="7310" p="2" wp="2" ws="1">kamu pasti begitu juga kan?</p>
+    <p t="175670" d="360" p="3" wp="3" ws="2">nai</p>
+    <p t="175670" d="360" p="4" wp="3" ws="2">nai</p>
+    <p t="176100" d="300" p="3" wp="4" ws="3">nai</p>
+    <p t="176100" d="300" p="4" wp="4" ws="3">nai</p>
+    <p t="176550" d="400" p="3" wp="3" ws="2">nai</p>
+    <p t="176550" d="400" p="4" wp="3" ws="2">nai</p>
+    <p t="177030" d="380" p="3" wp="4" ws="3">nai</p>
+    <p t="177030" d="380" p="4" wp="4" ws="3">nai</p>
+    <p t="195860" d="3180" wp="1" ws="1"><s p="3">kizuna toka </s>​<s p="5">yūjō toka</s></p>
+    <p t="195860" d="3180" wp="1" ws="1"><s p="4">kizuna toka </s>​<s p="6">yūjō toka</s></p>
+    <p t="195860" d="3180" p="1" wp="2" ws="1">ikatan atau pertemanan</p>
+    <p t="195860" d="3180" p="2" wp="2" ws="1">ikatan atau pertemanan</p>
+    <p t="199040" d="3310" wp="1" ws="1"><s p="11">su</s>​<s p="1">ki wo wakachiau koto wa</s></p>
+    <p t="199040" d="3310" wp="1" ws="1"><s p="12">su</s>​<s p="2">ki wo wakachiau koto wa</s></p>
+    <p t="199040" d="3310" p="1" wp="2" ws="1">atau saling berbagi hal yang disukai</p>
+    <p t="199040" d="3310" p="2" wp="2" ws="1">atau saling berbagi hal yang disukai</p>
+    <p t="202350" d="1530" p="3" wp="1" ws="1">iya janai no</p>
+    <p t="202350" d="1530" p="4" wp="1" ws="1">iya janai no</p>
+    <p t="202350" d="2960" p="1" wp="2" ws="1">bukan aku benci hal itu</p>
+    <p t="202350" d="2960" p="2" wp="2" ws="1">bukan aku benci hal itu</p>
+    <p t="203880" d="1430" p="5" wp="1" ws="1">iya janai no</p>
+    <p t="203880" d="1430" p="6" wp="1" ws="1">iya janai no</p>
+    <p t="205310" d="3510" wp="1" ws="1"><s p="1">chotto dake </s>​<s p="3">nigate </s><s p="1">nanda</s></p>
+    <p t="205310" d="3510" wp="1" ws="1"><s p="2">chotto dake </s>​<s p="4">nigate </s><s p="2">nanda</s></p>
+    <p t="205310" d="3510" p="1" wp="2" ws="1">hanya saja, aku tidak pandai dalam hal itu</p>
+    <p t="205310" d="3510" p="2" wp="2" ws="1">hanya saja, aku tidak pandai dalam hal itu</p>
+    <p t="208820" d="3820" p="1" wp="1" ws="1">hamaranai koto datte sa</p>
+    <p t="208820" d="3820" p="2" wp="1" ws="1">hamaranai koto datte sa</p>
+    <p t="208820" d="3820" p="1" wp="2" ws="1">kita tidak harus pandai dalam semua hal</p>
+    <p t="208820" d="3820" p="2" wp="2" ws="1">kita tidak harus pandai dalam semua hal</p>
+    <p t="212640" d="3670" p="1" wp="1" ws="1">ichidō nidō aru desho?</p>
+    <p t="212640" d="3670" p="2" wp="1" ws="1">ichidō nidō aru desho?</p>
+    <p t="212640" d="3670" p="1" wp="2" ws="1">kita hanya harus mencoba sekali / dua kali saja kan?</p>
+    <p t="212640" d="3670" p="2" wp="2" ws="1">kita hanya harus mencoba sekali / dua kali saja kan?</p>
+    <p t="216310" d="1370" p="1" wp="1" ws="1">watashi datte</p>
+    <p t="216310" d="1370" p="2" wp="1" ws="1">watashi datte</p>
+    <p t="216310" d="1370" p="1" wp="2" ws="1">karena aku</p>
+    <p t="216310" d="1370" p="2" wp="2" ws="1">karena aku</p>
+    <p t="217680" d="1200" p="1" wp="1" ws="1">kimi datte</p>
+    <p t="217680" d="1200" p="2" wp="1" ws="1">kimi datte</p>
+    <p t="217680" d="1200" p="1" wp="2" ws="1">dan kamu</p>
+    <p t="217680" d="1200" p="2" wp="2" ws="1">dan kamu</p>
+    <p t="218880" d="4000" p="1" wp="1" ws="1">hito damon</p>
+    <p t="218880" d="4000" p="2" wp="1" ws="1">hito damon</p>
+    <p t="218880" d="4000" p="1" wp="2" ws="1">sama-sama manusia</p>
+    <p t="218880" d="4000" p="2" wp="2" ws="1">sama-sama manusia</p>
+    <p t="223660" d="1820" p="1" wp="1" ws="1">hito dakara</p>
+    <p t="223660" d="1820" p="2" wp="1" ws="1">hito dakara</p>
+    <p t="223660" d="1820" p="1" wp="2" ws="1">karena kita manusia</p>
+    <p t="223660" d="1820" p="2" wp="2" ws="1">karena kita manusia</p>
+    <p t="225480" d="6630" wp="1" ws="1"><s p="3">hito</s>​<s p="5">ri </s><s p="7">wa </s><s p="5">tsu</s><s p="3">ra</s><s p="7">i </s><s p="3">ko</s><s p="5">to </s><s p="3">bakari </s><s p="5">j</s><s p="7">a</s><s p="5">nai</s></p>
+    <p t="225480" d="6630" wp="1" ws="1"><s p="4">hito</s>​<s p="6">ri </s><s p="8">wa </s><s p="6">tsu</s><s p="4">ra</s><s p="8">i </s><s p="4">ko</s><s p="6">to </s><s p="4">bakari </s><s p="6">j</s><s p="8">a</s><s p="6">nai</s></p>
+    <p t="225480" d="6630" p="13" wp="2" ws="1">sendirian itu tidak selalu tentang hal yang menyedihkan</p>
+    <p t="225480" d="6630" p="14" wp="2" ws="1">sendirian itu tidak selalu tentang hal yang menyedihkan</p>
+    <p t="225480" d="6630" p="15" wp="2" ws="1">sendirian itu tidak selalu tentang hal yang menyedihkan</p>
+    <p t="227170" d="400" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="227170" d="400" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="227630" d="390" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="227630" d="390" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="228080" d="340" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="228080" d="340" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="228520" d="390" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="228520" d="390" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="228960" d="370" wp="3" ws="2"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="228960" d="370" wp="3" ws="2"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="229380" d="400" wp="4" ws="3"><s p="3">ra</s>​<s p="5">i</s></p>
+    <p t="229380" d="400" wp="4" ws="3"><s p="4">ra</s>​<s p="6">i</s></p>
+    <p t="232110" d="4440" wp="1" ws="1"><s p="3">nori </s>​<s p="7">mo </s><s p="5">iranai</s></p>
+    <p t="232110" d="4440" wp="1" ws="1"><s p="4">nori </s>​<s p="8">mo </s><s p="6">iranai</s></p>
+    <p t="232110" d="4440" p="13" wp="2" ws="1">aku juga tidak mau melebih-lebihkan</p>
+    <p t="232110" d="4440" p="14" wp="2" ws="1">aku juga tidak mau melebih-lebihkan</p>
+    <p t="232110" d="4440" p="15" wp="2" ws="1">aku juga tidak mau melebih-lebihkan</p>
+    <p t="234040" d="410" p="7" wp="3" ws="2">nai</p>
+    <p t="234040" d="410" p="8" wp="3" ws="2">nai</p>
+    <p t="234500" d="340" p="7" wp="4" ws="3">nai</p>
+    <p t="234500" d="340" p="8" wp="4" ws="3">nai</p>
+    <p t="234940" d="340" p="7" wp="3" ws="2">nai</p>
+    <p t="234940" d="340" p="8" wp="3" ws="2">nai</p>
+    <p t="235360" d="320" p="7" wp="4" ws="3">nai</p>
+    <p t="235360" d="320" p="8" wp="4" ws="3">nai</p>
+    <p t="235680" d="380" p="7" wp="3" ws="2">nai</p>
+    <p t="235680" d="380" p="8" wp="3" ws="2">nai</p>
+    <p t="236130" d="420" p="7" wp="4" ws="3">nai</p>
+    <p t="236130" d="420" p="8" wp="4" ws="3">nai</p>
+    <p t="236550" d="2400" wp="1" ws="1"><s p="3">koko </s>​<s p="7">wa </s><s p="5">ii </s><s p="3">toko </s><s p="7">da</s></p>
+    <p t="236550" d="2400" wp="1" ws="1"><s p="4">koko </s>​<s p="8">wa </s><s p="6">ii </s><s p="4">toko </s><s p="8">da</s></p>
+    <p t="236550" d="2400" p="13" wp="2" ws="1">karena disini tempat yang nyaman</p>
+    <p t="236550" d="2400" p="14" wp="2" ws="1">karena disini tempat yang nyaman</p>
+    <p t="236550" d="2400" p="15" wp="2" ws="1">karena disini tempat yang nyaman</p>
+    <p t="238950" d="6890" p="3" wp="1" ws="1">watashi no shiranai sekai ga aru yō ni</p>
+    <p t="238950" d="6890" p="4" wp="1" ws="1">watashi no shiranai sekai ga aru yō ni</p>
+    <p t="238950" d="6890" p="1" wp="2" ws="1">diriku juga punya hal yang tidak kuketahui</p>
+    <p t="238950" d="6890" p="2" wp="2" ws="1">diriku juga punya hal yang tidak kuketahui</p>
+    <p t="240880" d="340" p="3" wp="3" ws="2">nai</p>
+    <p t="240880" d="340" p="4" wp="3" ws="2">nai</p>
+    <p t="241300" d="390" p="3" wp="4" ws="3">nai</p>
+    <p t="241300" d="390" p="4" wp="4" ws="3">nai</p>
+    <p t="241690" d="350" p="3" wp="3" ws="2">nai</p>
+    <p t="241690" d="350" p="4" wp="3" ws="2">nai</p>
+    <p t="242120" d="360" p="3" wp="4" ws="3">nai</p>
+    <p t="242120" d="360" p="4" wp="4" ws="3">nai</p>
+    <p t="242560" d="380" p="3" wp="3" ws="2">nai</p>
+    <p t="242560" d="380" p="4" wp="3" ws="2">nai</p>
+    <p t="243000" d="410" p="3" wp="4" ws="3">nai</p>
+    <p t="243000" d="410" p="4" wp="4" ws="3">nai</p>
+    <p t="245840" d="7200" p="3" wp="1" ws="1">kimi no shiranai sekai ga kitto aru no deshō?</p>
+    <p t="245840" d="7200" p="4" wp="1" ws="1">kimi no shiranai sekai ga kitto aru no deshō?</p>
+    <p t="245840" d="7200" p="1" wp="2" ws="1">kamu pasti begitu hal itu juga kan?</p>
+    <p t="245840" d="7200" p="2" wp="2" ws="1">kamu pasti begitu hal itu juga kan?</p>
+    <p t="247670" d="400" p="3" wp="3" ws="2">nai</p>
+    <p t="247670" d="400" p="4" wp="3" ws="2">nai</p>
+    <p t="248160" d="430" p="3" wp="4" ws="3">nai</p>
+    <p t="248160" d="430" p="4" wp="4" ws="3">nai</p>
+    <p t="248690" d="370" p="3" wp="3" ws="2">nai</p>
+    <p t="248690" d="370" p="4" wp="3" ws="2">nai</p>
+    <p t="249150" d="370" p="3" wp="4" ws="3">nai</p>
+    <p t="249150" d="370" p="4" wp="4" ws="3">nai</p>
+    <p t="253040" d="4980" wp="1" ws="1"><s p="3">watashi </s>​<s p="1">no </s><s p="3">futsu </s><s p="1">ga </s><s p="3">futsu </s><s p="1">janai </s><s p="3">toki </s><s p="1">mo aru no deshō?</s></p>
+    <p t="253040" d="4980" wp="1" ws="1"><s p="4">watashi </s>​<s p="2">no </s><s p="4">futsu </s><s p="2">ga </s><s p="4">futsu </s><s p="2">janai </s><s p="4">toki </s><s p="2">mo aru no deshō?</s></p>
+    <p t="253040" d="4980" p="1" wp="2" ws="1">pasti ada "normal" bagiku tidak "normal" bagimu kan?</p>
+    <p t="253040" d="4980" p="2" wp="2" ws="1">pasti ada "normal" bagiku tidak "normal" bagimu kan?</p>
+    <p t="258020" d="3380" wp="1" ws="1"><s p="3">hito </s>​<s p="1">damon</s></p>
+    <p t="258020" d="3380" wp="1" ws="1"><s p="4">hito </s>​<s p="2">damon</s></p>
+    <p t="258020" d="3380" p="1" wp="2" ws="1">karena kita sama-sama manusia</p>
+    <p t="258020" d="3380" p="2" wp="2" ws="1">karena kita sama-sama manusia</p>
+    <p t="261600" d="2690" p="3" wp="2" ws="1">Lagu : Wataru Sena</p>
+    <p t="261600" d="2690" p="4" wp="2" ws="1">Lagu : Wataru Sena</p>
+    <p t="264290" d="3730" p="5" wp="2" ws="1">Penyanyi : Sana</p>
+    <p t="264290" d="3730" p="6" wp="2" ws="1">Penyanyi : Sana</p>
+    <p t="268020" d="2740" p="5" wp="2" ws="1">Ilustrasi : Mitsuki Sanagi</p>
+    <p t="268020" d="2740" p="6" wp="2" ws="1">Ilustrasi : Mitsuki Sanagi</p>
+    <p t="271220" d="2570" p="3" wp="2" ws="1">Video : House</p>
+    <p t="271220" d="2570" p="4" wp="2" ws="1">Video : House</p>
+    <p t="274450" d="130" p="3" wp="2" ws="1">Penyanyi : Sana || Video : House</p>
+    <p t="274450" d="130" p="4" wp="2" ws="1">Penyanyi : Sana || Video : House</p>
+    <p t="274580" d="140" wp="2" ws="1"><s p="3">Lagu : Wataru Sena || Ilustrasi : Mitsuki Sanagi</s>​<s p="3">​
+Penyanyi : Sana || Video : House</s></p>
+    <p t="274580" d="140" wp="2" ws="1"><s p="4">Lagu : Wataru Sena || Ilustrasi : Mitsuki Sanagi</s>​<s p="4">​
+Penyanyi : Sana || Video : House</s></p>
+    <p t="274720" d="10120" wp="2" ws="1"><s p="3">Hitori Tabi / Perjalanan Solo</s>​<s p="3">​
+Lagu : Wataru Sena || Ilustrasi : Mitsuki Sanagi</s><s p="3">​
+Penyanyi : Sana || Video : House</s></p>
+    <p t="274720" d="10120" wp="2" ws="1"><s p="4">Hitori Tabi / Perjalanan Solo</s>​<s p="4">​
+Lagu : Wataru Sena || Ilustrasi : Mitsuki Sanagi</s><s p="4">​
+Penyanyi : Sana || Video : House</s></p>
+  </body>
+</timedtext>

@@ -1,0 +1,699 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  }, {
+    "szPenSize": 20,
+    "fsFontStyle": 2,
+    "fcForeColor": 16711422,
+    "boBackAlpha": 0
+  }, {
+    "szPenSize": 180,
+    "fsFontStyle": 2,
+    "fcForeColor": 5069671,
+    "boBackAlpha": 0
+  }, {
+    "szPenSize": 180,
+    "fsFontStyle": 2,
+    "fcForeColor": 12509695,
+    "foForeAlpha": 0,
+    "bcBackColor": 0,
+    "boBackAlpha": 0
+  }, {
+    "szPenSize": 20,
+    "fsFontStyle": 2,
+    "fcForeColor": 4470833,
+    "boBackAlpha": 0
+  }, {
+    "szPenSize": 20,
+    "fsFontStyle": 2,
+    "fcForeColor": 16765623,
+    "foForeAlpha": 0,
+    "bcBackColor": 0,
+    "boBackAlpha": 0
+  }, {
+    "szPenSize": 20,
+    "fsFontStyle": 2,
+    "fcForeColor": 14337211,
+    "boBackAlpha": 0
+  }, {
+    "iAttr": 1,
+    "szPenSize": 100,
+    "fcForeColor": 0,
+    "foForeAlpha": 1,
+    "boBackAlpha": 0
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "juJustifCode": 0,
+    "pdPrintDir": 0,
+    "sdScrollDir": 0
+  }, {
+    "juJustifCode": 2,
+    "pdPrintDir": 0,
+    "sdScrollDir": 0
+  }, {
+    "juJustifCode": 1,
+    "pdPrintDir": 0,
+    "sdScrollDir": 0
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 74,
+    "avVerPos": 56
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 77,
+    "avVerPos": 56
+  }, {
+    "apPoint": 4,
+    "ahHorPos": 25,
+    "avVerPos": 57
+  }, {
+    "apPoint": 4,
+    "ahHorPos": 74,
+    "avVerPos": 57
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 79,
+    "avVerPos": 59
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 77,
+    "avVerPos": 59
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 75,
+    "avVerPos": 59
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 76,
+    "avVerPos": 59
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 69,
+    "avVerPos": 45
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 76,
+    "avVerPos": 57
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 74,
+    "avVerPos": 57
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 74,
+    "avVerPos": 60
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 77,
+    "avVerPos": 57
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 79,
+    "avVerPos": 57
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 71,
+    "avVerPos": 58
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 72,
+    "avVerPos": 59
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 73,
+    "avVerPos": 61
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 66,
+    "avVerPos": 58
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 70,
+    "avVerPos": 58
+  }, {
+    "apPoint": 4,
+    "ahHorPos": 50,
+    "avVerPos": 66
+  }, {
+    "apPoint": 4,
+    "ahHorPos": 50,
+    "avVerPos": 62
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 74,
+    "avVerPos": 73
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 77,
+    "avVerPos": 51
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 74,
+    "avVerPos": 50
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 74,
+    "avVerPos": 61
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 80,
+    "avVerPos": 59
+  }, {
+    "apPoint": 3,
+    "ahHorPos": 73,
+    "avVerPos": 58
+  }, {
+    "apPoint": 8,
+    "ahHorPos": 0,
+    "avVerPos": 0
+  } ],
+  "events": [ {
+    "tStartMs": 775,
+    "dDurationMs": 3170,
+    "segs": [ {
+      "utf8": "Even if I search within these solemn days,​"
+    } ],
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 3945,
+    "dDurationMs": 2902,
+    "segs": [ {
+      "utf8": "Even if I curse the unchanging present,​"
+    } ],
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 6847,
+    "dDurationMs": 3204,
+    "segs": [ {
+      "utf8": "The words dancing in mid-air​"
+    } ],
+    "wpWinPosId": 2,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 10051,
+    "dDurationMs": 3435,
+    "segs": [ {
+      "utf8": "Surely cannot save you​"
+    } ],
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 16490,
+    "dDurationMs": 466,
+    "segs": [ {
+      "utf8": "Music     Keina Suda​"
+    } ],
+    "wpWinPosId": 3,
+    "wsWinStyleId": 2,
+    "pPenId": 2
+  }, {
+    "tStartMs": 16490,
+    "dDurationMs": 466,
+    "segs": [ {
+      "utf8": "Music     Keina Suda​"
+    } ],
+    "wpWinPosId": 3,
+    "wsWinStyleId": 2,
+    "pPenId": 3
+  }, {
+    "tStartMs": 19694,
+    "dDurationMs": 432,
+    "segs": [ {
+      "utf8": "Movie     Avogado6​"
+    } ],
+    "wpWinPosId": 4,
+    "wsWinStyleId": 2,
+    "pPenId": 2
+  }, {
+    "tStartMs": 19694,
+    "dDurationMs": 432,
+    "segs": [ {
+      "utf8": "Movie     Avogado6​"
+    } ],
+    "wpWinPosId": 4,
+    "wsWinStyleId": 2,
+    "pPenId": 3
+  }, {
+    "tStartMs": 26968,
+    "dDurationMs": 2035,
+    "segs": [ {
+      "utf8": "The scenery that still cannot be reached,​"
+    } ],
+    "wpWinPosId": 5,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 29003,
+    "dDurationMs": 3937,
+    "segs": [ {
+      "utf8": "And the pain that never gets warm​"
+    } ],
+    "wpWinPosId": 5,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 32940,
+    "dDurationMs": 2369,
+    "segs": [ {
+      "utf8": "Walked past each other's shoulders,​"
+    } ],
+    "wpWinPosId": 6,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 35309,
+    "dDurationMs": 2835,
+    "segs": [ {
+      "utf8": "Only hoping to go to a faraway place​"
+    } ],
+    "wpWinPosId": 6,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 39313,
+    "dDurationMs": 3370,
+    "segs": [ {
+      "utf8": "The things like \"hope\" you told me,​"
+    } ],
+    "wpWinPosId": 7,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 42683,
+    "dDurationMs": 3070,
+    "segs": [ {
+      "utf8": "If they are the ideals you saw in your dreams,​"
+    } ],
+    "wpWinPosId": 7,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 45753,
+    "dDurationMs": 2603,
+    "segs": [ {
+      "utf8": "No matter how cold it gets,​"
+    } ],
+    "wpWinPosId": 8,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 48356,
+    "dDurationMs": 3201,
+    "segs": [ {
+      "utf8": "I'll show you my love​"
+    } ],
+    "wpWinPosId": 8,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 52093,
+    "dDurationMs": 2869,
+    "segs": [ {
+      "utf8": "Even if I search within these solemn days,​"
+    } ],
+    "wpWinPosId": 9,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 54962,
+    "dDurationMs": 3169,
+    "segs": [ {
+      "utf8": "Even if I curse the unchanging present,​"
+    } ],
+    "wpWinPosId": 9,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 58265,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "The words dancing in mid-air​"
+    } ],
+    "wpWinPosId": 10,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 61235,
+    "dDurationMs": 3135,
+    "segs": [ {
+      "utf8": "Surely cannot save you​"
+    } ],
+    "wpWinPosId": 11,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 64705,
+    "dDurationMs": 3037,
+    "segs": [ {
+      "utf8": "Even if I shout with my worthless voice,​"
+    } ],
+    "wpWinPosId": 12,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 67742,
+    "dDurationMs": 3603,
+    "segs": [ {
+      "utf8": "The heat-bearing night will still arrive​"
+    } ],
+    "wpWinPosId": 12,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 71345,
+    "dDurationMs": 2703,
+    "segs": [ {
+      "utf8": "Even if this hand is released,​"
+    } ],
+    "wpWinPosId": 13,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 74048,
+    "dDurationMs": 3235,
+    "segs": [ {
+      "utf8": "I hope to be able to walk forward​"
+    } ],
+    "wpWinPosId": 11,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 91032,
+    "dDurationMs": 2035,
+    "segs": [ {
+      "utf8": "The words I'm unable to share with you,​"
+    } ],
+    "wpWinPosId": 6,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 93067,
+    "dDurationMs": 3837,
+    "segs": [ {
+      "utf8": "they increase every time I notice them​"
+    } ],
+    "wpWinPosId": 6,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 96904,
+    "dDurationMs": 2436,
+    "segs": [ {
+      "utf8": "Face the present and continue to change,​"
+    } ],
+    "wpWinPosId": 8,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 99340,
+    "dDurationMs": 3569,
+    "segs": [ {
+      "utf8": "I want you to keep looking at this figure​"
+    } ],
+    "wpWinPosId": 8,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 103144,
+    "dDurationMs": 3536,
+    "segs": [ {
+      "utf8": "The future you spoke of was only​"
+    } ],
+    "wpWinPosId": 7,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 106680,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "unable to be held by these hands​"
+    } ],
+    "wpWinPosId": 7,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 109650,
+    "dDurationMs": 2770,
+    "segs": [ {
+      "utf8": "No matter how you cover it up,​"
+    } ],
+    "wpWinPosId": 5,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 112420,
+    "dDurationMs": 3770,
+    "segs": [ {
+      "utf8": "Behind that smile of yours,​"
+    } ],
+    "wpWinPosId": 5,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 116190,
+    "dDurationMs": 2635,
+    "segs": [ {
+      "utf8": "You still doubt me, don't you?​"
+    } ],
+    "wpWinPosId": 14,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 119360,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "Even if it's the future of these unending days,​"
+    } ],
+    "wpWinPosId": 15,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 122096,
+    "dDurationMs": 3202,
+    "segs": [ {
+      "utf8": "Even if it's this near-unsalvageable melancholy,​"
+    } ],
+    "wpWinPosId": 15,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 125466,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "The more this finger struggles​"
+    } ],
+    "wpWinPosId": 7,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 128469,
+    "dDurationMs": 3168,
+    "segs": [ {
+      "utf8": "The more they fade away remotely​"
+    } ],
+    "wpWinPosId": 16,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 131906,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "I didn't want to know​"
+    } ],
+    "wpWinPosId": 17,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 134842,
+    "dDurationMs": 3637,
+    "segs": [ {
+      "utf8": "the color of untouchable memories​"
+    } ],
+    "wpWinPosId": 17,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 138479,
+    "dDurationMs": 3203,
+    "segs": [ {
+      "utf8": "Although you aren't here anymore,​"
+    } ],
+    "wpWinPosId": 6,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 141682,
+    "dDurationMs": 3103,
+    "segs": [ {
+      "utf8": "I still want to keep dreaming​"
+    } ],
+    "wpWinPosId": 6,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 144785,
+    "dDurationMs": 6507,
+    "segs": [ {
+      "utf8": "If the reification of misfortune attacks you,​"
+    } ],
+    "wpWinPosId": 18,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 151292,
+    "dDurationMs": 5637,
+    "segs": [ {
+      "utf8": "I want to touch it with the palm of my hand​"
+    } ],
+    "wpWinPosId": 19,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 157731,
+    "dDurationMs": 6374,
+    "segs": [ {
+      "utf8": "If the decorated words that you spit out\nare for cursing someone​"
+    } ],
+    "wpWinPosId": 20,
+    "wsWinStyleId": 2,
+    "pPenId": 4
+  }, {
+    "tStartMs": 157731,
+    "dDurationMs": 6374,
+    "segs": [ {
+      "utf8": "If the decorated words that you spit out\nare for cursing someone​"
+    } ],
+    "wpWinPosId": 20,
+    "wsWinStyleId": 2,
+    "pPenId": 5
+  }, {
+    "tStartMs": 164105,
+    "dDurationMs": 4069,
+    "segs": [ {
+      "utf8": "Then keep your mouth shut​"
+    } ],
+    "wpWinPosId": 21,
+    "wsWinStyleId": 2,
+    "pPenId": 4
+  }, {
+    "tStartMs": 164105,
+    "dDurationMs": 4069,
+    "segs": [ {
+      "utf8": "Then keep your mouth shut​"
+    } ],
+    "wpWinPosId": 21,
+    "wsWinStyleId": 2,
+    "pPenId": 5
+  }, {
+    "tStartMs": 170544,
+    "dDurationMs": 2803,
+    "segs": [ {
+      "utf8": "Even if I search within these solemn days,​"
+    } ],
+    "wpWinPosId": 22,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 173347,
+    "dDurationMs": 3169,
+    "segs": [ {
+      "utf8": "Even if I curse the unchanging present,​"
+    } ],
+    "wpWinPosId": 22,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 176684,
+    "dDurationMs": 3470,
+    "segs": [ {
+      "utf8": "The words dancing in mid-air​"
+    } ],
+    "wpWinPosId": 23,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 180154,
+    "dDurationMs": 2701,
+    "segs": [ {
+      "utf8": "Surely cannot save you​"
+    } ],
+    "wpWinPosId": 24,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 183157,
+    "dDurationMs": 3036,
+    "segs": [ {
+      "utf8": "Even if I shout with my worthless voice,​"
+    } ],
+    "wpWinPosId": 25,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 186193,
+    "dDurationMs": 3537,
+    "segs": [ {
+      "utf8": "The heat-bearing night will still arrive​"
+    } ],
+    "wpWinPosId": 25,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 189730,
+    "dDurationMs": 3237,
+    "segs": [ {
+      "utf8": "Even if this hand is released,​"
+    } ],
+    "wpWinPosId": 26,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 192967,
+    "dDurationMs": 3170,
+    "segs": [ {
+      "utf8": "I hope to be able to walk forward​"
+    } ],
+    "wpWinPosId": 7,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 196137,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "Hopefully, without saying goodbye,​"
+    } ],
+    "wpWinPosId": 6,
+    "wsWinStyleId": 1,
+    "pPenId": 1
+  }, {
+    "tStartMs": 198873,
+    "dDurationMs": 3268,
+    "segs": [ {
+      "utf8": "One day, we'll meet again somewhere​"
+    } ],
+    "wpWinPosId": 27,
+    "wsWinStyleId": 1,
+    "pPenId": 6
+  }, {
+    "tStartMs": 1,
+    "dDurationMs": 99,
+    "segs": [ {
+      "utf8": "​​"
+    } ],
+    "wpWinPosId": 28,
+    "wsWinStyleId": 3,
+    "pPenId": 7
+  } ]
+}

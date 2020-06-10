@@ -1,0 +1,337 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 540,
+    "dDurationMs": 3000,
+    "segs": [ {
+      "utf8": "Suki ni natte! Motto!\n好きになって！もっと！"
+    } ]
+  }, {
+    "tStartMs": 3760,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "Watashi wo mite! Motto!\n私を見て！もっと！"
+    } ]
+  }, {
+    "tStartMs": 6960,
+    "dDurationMs": 5960,
+    "segs": [ {
+      "utf8": "Ongaeshi wa \"ai no komotta nagekissude\"\n恩返しは　\"愛のこもった投げキッスで\""
+    } ]
+  }, {
+    "tStartMs": 16360,
+    "dDurationMs": 4960,
+    "segs": [ {
+      "utf8": "Kinosei ja nai me wa atteru yo\n気のせいじゃない目は合ってるよ"
+    } ]
+  }, {
+    "tStartMs": 21320,
+    "dDurationMs": 5420,
+    "segs": [ {
+      "utf8": "Heart tsukutte koishichatte kudasai\n♡(ハート)作って恋しちゃって下さい！"
+    } ]
+  }, {
+    "tStartMs": 27940,
+    "dDurationMs": 4280,
+    "segs": [ {
+      "utf8": "Yareru koto nandemo shimasu\nやれること何でもします"
+    } ]
+  }, {
+    "tStartMs": 32220,
+    "dDurationMs": 4860,
+    "segs": [ {
+      "utf8": "NG nashide taiatari chousen\nNG無しで体当たり挑戦"
+    } ]
+  }, {
+    "tStartMs": 37620,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "Ego sade mitsuketa anchi no kome\nエゴサで見つけたアンチのコメ"
+    } ]
+  }, {
+    "tStartMs": 40220,
+    "dDurationMs": 2940,
+    "segs": [ {
+      "utf8": "Fuzakenna!... Dare yori wakatterushi\nふざけんな！…誰より分かってるし"
+    } ]
+  }, {
+    "tStartMs": 43180,
+    "dDurationMs": 5020,
+    "segs": [ {
+      "utf8": "Demo daijoubu koko ni tateba minna ga iru\nでも大丈夫ステージ(ここ)に立てばみんながいる"
+    } ]
+  }, {
+    "tStartMs": 48320,
+    "dDurationMs": 960,
+    "segs": [ {
+      "utf8": "Ikuyo!\n行くよ！"
+    } ]
+  }, {
+    "tStartMs": 49280,
+    "dDurationMs": 2520,
+    "segs": [ {
+      "utf8": "Suki ni natte! Motto!\n好きになって！もっと！"
+    } ]
+  }, {
+    "tStartMs": 51800,
+    "dDurationMs": 2800,
+    "segs": [ {
+      "utf8": "Watashi wo mite! Motto!\n私を見て！もっと！"
+    } ]
+  }, {
+    "tStartMs": 54600,
+    "dDurationMs": 5420,
+    "segs": [ {
+      "utf8": "Ongaeshi wa “ai no komotta nagekissu de” (Fooo! ! )\n恩返しは　\"愛のこもった投げキッスで\" (Fooo! ! )"
+    } ]
+  }, {
+    "tStartMs": 60020,
+    "dDurationMs": 2700,
+    "segs": [ {
+      "utf8": "Toriko ni suru! Motto!\n虜にする！もっと！"
+    } ]
+  }, {
+    "tStartMs": 62720,
+    "dDurationMs": 2740,
+    "segs": [ {
+      "utf8": "Yume o miseru! Motto!\n夢を見せる！もっと！"
+    } ]
+  }, {
+    "tStartMs": 65460,
+    "dDurationMs": 6720,
+    "segs": [ {
+      "utf8": "Tanoshinde tte ai no komotta supesharunaito\n楽しんでって　愛のこもったスペシャルナイト"
+    } ]
+  }, {
+    "tStartMs": 72180,
+    "dDurationMs": 1840,
+    "segs": [ {
+      "utf8": "Fansa shi chau zo ( ･ ω \u003c )\nファンサしちゃうぞ( ･ ω \u003c )"
+    } ]
+  }, {
+    "tStartMs": 84680,
+    "dDurationMs": 4620,
+    "segs": [ {
+      "utf8": "O tegami mo kaite kudasai!\nお手紙も書いてください！"
+    } ]
+  }, {
+    "tStartMs": 89300,
+    "dDurationMs": 5120,
+    "segs": [ {
+      "utf8": "Nando mo yonde takaramono ni shimasu\n何度も読んで宝物にします"
+    } ]
+  }, {
+    "tStartMs": 95600,
+    "dDurationMs": 4640,
+    "segs": [ {
+      "utf8": "Sukyandaru mada hayaikedo\nスキャンダルまだ早いけど"
+    } ]
+  }, {
+    "tStartMs": 100240,
+    "dDurationMs": 5160,
+    "segs": [ {
+      "utf8": "Uragirimasen! Sengen shi tokimasu(`･ω･´)\n裏切りません！宣言しときます(`･ω･´)"
+    } ]
+  }, {
+    "tStartMs": 105720,
+    "dDurationMs": 2840,
+    "segs": [ {
+      "utf8": "Shitto, iyagarase ni wa makenai\n嫉妬、嫌がらせには負けない"
+    } ]
+  }, {
+    "tStartMs": 108560,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "Fuzaken na! Jitsuryoku de katte yaru\nふざけんな！実力で勝ってやる"
+    } ]
+  }, {
+    "tStartMs": 111160,
+    "dDurationMs": 4840,
+    "segs": [ {
+      "utf8": "Dakara yamenai makezu girai watashi wa iru\nだから辞めない負けず嫌い私はいる"
+    } ]
+  }, {
+    "tStartMs": 116360,
+    "dDurationMs": 600,
+    "segs": [ {
+      "utf8": "Ikuyo!\n行くよ！"
+    } ]
+  }, {
+    "tStartMs": 117320,
+    "dDurationMs": 2260,
+    "segs": [ {
+      "utf8": "Kobushi agete! Motto!\nこぶし上げて！もっと！"
+    } ]
+  }, {
+    "tStartMs": 119580,
+    "dDurationMs": 3020,
+    "segs": [ {
+      "utf8": "Ase o kaite! Motto!\n汗をかいて！もっと！"
+    } ]
+  }, {
+    "tStartMs": 122600,
+    "dDurationMs": 5480,
+    "segs": [ {
+      "utf8": "Ongaeshi wa “ai no komotta mona bīmu de” (Fooo! ! )\n恩返しは　\"愛のこもったmonaビームで\" (Fooo! ! )"
+    } ]
+  }, {
+    "tStartMs": 128080,
+    "dDurationMs": 2720,
+    "segs": [ {
+      "utf8": "Dai kansei! Motto!\n大歓声！もっと！"
+    } ]
+  }, {
+    "tStartMs": 130800,
+    "dDurationMs": 3000,
+    "segs": [ {
+      "utf8": "Madamada! Nē? Motto!\nまだまだ！ねえ？もっと！"
+    } ]
+  }, {
+    "tStartMs": 133800,
+    "dDurationMs": 6440,
+    "segs": [ {
+      "utf8": "Uketomete ne ai no komotta wagamama songu\n受け止めてね　愛のこもったわがままソング"
+    } ]
+  }, {
+    "tStartMs": 140240,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "Fansa shi chau zo ( ･ ω \u003c )\nファンサしちゃうぞ( ･ ω \u003c )"
+    } ]
+  }, {
+    "tStartMs": 142720,
+    "dDurationMs": 9460,
+    "segs": [ {
+      "utf8": "Ha~a owari ga chikadzuku sabishī ne\nはぁ...終わりが近づく　寂しいね"
+    } ]
+  }, {
+    "tStartMs": 152680,
+    "dDurationMs": 4600,
+    "segs": [ {
+      "utf8": "Tanoshīnoni nakisōda yo\n楽しいのに泣きそうだよ"
+    } ]
+  }, {
+    "tStartMs": 157600,
+    "dDurationMs": 5280,
+    "segs": [ {
+      "utf8": "Tsugi mo tsugi mo mata aeru yo ne?\n次も次もまた会えるよね？"
+    } ]
+  }, {
+    "tStartMs": 162880,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "Yakusoku!\n約束！"
+    } ]
+  }, {
+    "tStartMs": 173920,
+    "dDurationMs": 2800,
+    "segs": [ {
+      "utf8": "Yasashi-sa ni afurete iru kotoba mo\n優しさに溢れている言葉も"
+    } ]
+  }, {
+    "tStartMs": 176720,
+    "dDurationMs": 2800,
+    "segs": [ {
+      "utf8": "Kokoro nai dareka no kotoba sae mo\n心ない誰かの言葉さえも"
+    } ]
+  }, {
+    "tStartMs": 179520,
+    "dDurationMs": 2720,
+    "segs": [ {
+      "utf8": "Hitsuyōna nda hitsuyōna nda\n必要なんだ必要なんだ"
+    } ]
+  }, {
+    "tStartMs": 182240,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "Tsuyoku narou\n強くなろう"
+    } ]
+  }, {
+    "tStartMs": 185360,
+    "dDurationMs": 2720,
+    "segs": [ {
+      "utf8": "Suki ni sakebe! Motto!\n好きに叫べ！もっと！"
+    } ]
+  }, {
+    "tStartMs": 188080,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "Tanoshinja e! Motto!\n楽しんじゃえ！もっと！"
+    } ]
+  }, {
+    "tStartMs": 190640,
+    "dDurationMs": 5460,
+    "segs": [ {
+      "utf8": "Wasurenai de tokubetsuna hi ni narimasu yō ni\n忘れないで　特別な日になりますように"
+    } ]
+  }, {
+    "tStartMs": 196540,
+    "dDurationMs": 2620,
+    "segs": [ {
+      "utf8": "Tomoni utaou zutto!\n共に歌おうずっと！"
+    } ]
+  }, {
+    "tStartMs": 199160,
+    "dDurationMs": 2720,
+    "segs": [ {
+      "utf8": "Tomoni ayumou zutto!\n共に歩もうずっと！"
+    } ]
+  }, {
+    "tStartMs": 201880,
+    "dDurationMs": 5240,
+    "segs": [ {
+      "utf8": "Aikotoba wa tobi kkiri no L O V E (Fooo! ! )\n合言葉はとびっきりのL.O.V.E　(Fooo! ! )"
+    } ]
+  }, {
+    "tStartMs": 207120,
+    "dDurationMs": 2960,
+    "segs": [ {
+      "utf8": "Suki ni natte! Motto!\n好きになって！もっと！"
+    } ]
+  }, {
+    "tStartMs": 210080,
+    "dDurationMs": 2760,
+    "segs": [ {
+      "utf8": "Watashi wo mite! Motto!\n私を見て！もっと！"
+    } ]
+  }, {
+    "tStartMs": 212840,
+    "dDurationMs": 5320,
+    "segs": [ {
+      "utf8": "Ongaeshi wa “ai no komotta nagekissu de” (Fooo! ! )\n恩返しは　\"愛のこもった投げキッスで\" (Fooo! ! )"
+    } ]
+  }, {
+    "tStartMs": 218160,
+    "dDurationMs": 2760,
+    "segs": [ {
+      "utf8": "Toriko ni suru! Motto!\n虜にする！もっと！"
+    } ]
+  }, {
+    "tStartMs": 220920,
+    "dDurationMs": 2520,
+    "segs": [ {
+      "utf8": "Yume o miseru! Motto!\n夢を見せる！もっと！"
+    } ]
+  }, {
+    "tStartMs": 223440,
+    "dDurationMs": 6760,
+    "segs": [ {
+      "utf8": "Tanoshinde tte ai no komotta supesharunaito\n楽しんでって　愛のこもったスペシャルナイト"
+    } ]
+  }, {
+    "tStartMs": 230200,
+    "dDurationMs": 2360,
+    "segs": [ {
+      "utf8": "Fansa shi chau zo ( ･ ω \u003c )\nファンサしちゃうぞ( ･ ω \u003c )"
+    } ]
+  } ]
+}
