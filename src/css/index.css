@@ -31,3 +31,14 @@ p {
 .searchSource button {
     padding: 10px;
 }
+
+.result {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.result p {
+    text-align: left;
+}

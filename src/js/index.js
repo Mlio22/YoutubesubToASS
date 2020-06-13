@@ -1,6 +1,8 @@
 const sourceInput = document.getElementById("sourceUrl");
 const searchButton = document.querySelector(".searchSource button");
-const result = document.querySelector(".result p");
+const styleResult = document.querySelector(".result p.style");
+const eventResult = document.querySelector(".result p.event");
+
 
 let jsonData;
 
@@ -13,6 +15,9 @@ searchButton.addEventListener("click", _ => {
             jsonData = responseJson;
             console.log(jsonData);
 
-            convert(jsonData);
+            results = convert(jsonData);
+            styleResult.innerText = results[0];
+            eventResult.innerText = results[1];
+
         });
 });
