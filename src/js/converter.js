@@ -1,3 +1,111 @@
+function nullCheck(para, def) {
+    // mencek nilai apakah null / undefined
+    // kalo 0 tetap diterima
+
+    if (para == null || para == undefined) {
+        return def;
+    } else {
+        return para;
+    }
+}
+
+function getFontType(fontNumber) {
+    switch (fontNumber) {
+        case 0:
+        case 4:
+        default:
+            return "Roboto";
+        case 1:
+            return "Courier New";
+        case 2:
+            return "Times New Roman";
+        case 3:
+            return "DejaVu Sans Mono";
+        case 5:
+            return "Comic Sans MS";
+        case 6:
+            return "Monotype Corsiva";
+        case 7:
+            return "Carrois Gothic SC";
+    }
+}
+
+function setColor(color = 0, maxNumber) {
+    // console.log(colors);
+    let colorHex = "";
+    for (let i = maxNumber; i >= 0; i--) {
+        let number = Math.pow(16, i);
+
+        if (color > number) {
+            let result = Math.floor(color / number);
+            colorHex += result.toString(16);
+            color -= number * result;
+        } else {
+            colorHex += '0';
+        }
+    }
+
+    if (colorHex.length < 6) {
+        colorHex += "0";
+    }
+
+    return `&H${colorHex.toUpperCase()}&`;
+}
+
+function convertTime(time) {
+    let [jam, menit, detik] = [0, 0, 0];
+
+    if ((time / 60000) >= 60) {
+        jam = Math.floor(time / 3600000);
+        time -= jam * 3600000;
+    }
+
+    if ((time / 1000) >= 60) {
+        menit = Math.floor(time / 60000);
+        time -= menit * 60000;
+    }
+
+    if ((time / 1000) >= 1) {
+        detik = Math.floor(time / 1000);
+        time -= detik * 1000;
+    }
+
+    time += "";
+    if (time.length < 3) {
+        time = "0" + time;
+    }
+
+    detik += "";
+    if (detik.length < 2) {
+        detik = "0" + detik;
+    }
+
+    menit += "";
+    if (menit.length < 2) {
+        menit = "0" + menit;
+    }
+
+
+    return `${jam}:${menit}:${detik}.${time}`;
+}
+
+function setTime(startMs, durationMs) {
+    // aegisub hanya mendukung ketelitian sampai 10ms
+
+    let endMs = startMs + durationMs;
+
+    return [convertTime(startMs), convertTime(endMs)];
+}
+
+function getPos(total, percentage, alignment) {
+
+
+    let result = ((percentage * total) / 100);
+    // console.log(result);
+
+    return result;
+}
+
 function getPenStyles(penObj) {
 
     //  untested Bois
@@ -13,11 +121,11 @@ function getPenStyles(penObj) {
 
     // Text Properties
     let sz = penObj.szPenSize || 100;
-    let fs = penObj.fsFontStyle || 4;
-    let fc = penObj.fcForeColor || 15790320;
-    let fo = penObj.foForeAlpha || 254;
-    let bc = penObj.bcBackColor || 0;
-    let bo = penObj.boBackAlpha || 254;
+    let fs = penObj.fsFontStyle || 4; // default : Roboto
+    let fc = nullCheck(penObj.fcForeColor, 16777215); //   default youtube : 	16777215 (255,255,255)
+    let fo = nullCheck(penObj.foForeAlpha, 254);
+    let bc = nullCheck(penObj.bcBackColor, 526344); //  default youtube : 526344 (8, 8, 8)
+    let bo = nullCheck(penObj.boBackAlpha, 191);
     let et = penObj.etEdgeType || 0;
 
     return {
@@ -39,7 +147,7 @@ function getPenStyles(penObj) {
 
 function getWinStyles(wsObj) {
     //  text aligns
-    let ju = wsObj.juJustifCode || 2;
+    let ju = wsObj.juJustifCode == null ? 2 : wsObj.juJustifCode;
 
     // vertical text
     let pd = wsObj.pdPrintDir || 0;
@@ -58,16 +166,17 @@ function getWinStyles(wsObj) {
 
 function getWinPos(wpObj) {
 
-    let ap = wpObj.apPoint;
-    let ah = wpObj.ahHorPos;
-    let av = wpObj.avVerPos;
+    let ap = wpObj.apPoint == null ? 7 : wpObj.apPoint;
+    let ah = wpObj.ahHorPos == null ? 50 : wpObj.ahHorPos;
+    let av = wpObj.avVerPos == null ? 100 : wpObj.avVerPos;
 
     return {
         "ap": ap,
         "ah": ah,
-        "av": av
+        "av": av,
     }
 }
+
 
 function getEvents(eventObj) {
     // semua data Wajib ada!
@@ -75,23 +184,18 @@ function getEvents(eventObj) {
     let t = eventObj.tStartMs;
     let d = eventObj.dDurationMs;
 
-    let s = [];
-    eventObj.segs.forEach(seg => {
-        s.push(getSegments(seg));
-    });
-
     let wp = eventObj.wpWinPosId;
     let ws = eventObj.wsWinStyleId;
 
     // kalo false berarti karaoke atau default
-    let p = eventObj.pinId || false;
+    let p = eventObj.pPenId || 0;
 
     return {
         "time": {
             "t": t,
             "d": d
         },
-        "seg": s,
+        "segs": eventObj.segs,
         "win": {
             "wp": wp,
             "ws": ws
@@ -100,93 +204,139 @@ function getEvents(eventObj) {
     }
 }
 
-function getSegments(wsSegment) {
-    let utf8 = wsSegment.utf8;
-
-    // kalo ada berarti karaoke
-    let penId = wsSegment.pinId || false;
-
-    return {
-        "utf8": utf8,
-        "pId": penId
+function getAlign(number) {
+    if (number < 3) {
+        return number + 7;
+    } else if (number < 6) {
+        return number + 1;
+    } else {
+        return number - 5;
     }
 }
 
-function getFontType(fontNumber) {
-    switch (fontNumber) {
-        case 0:
-        case 4:
-        default:
-            return "Roboto";
-        case 1:
-            return "Courier New";
-        case 2:
-            return "Times New Roman";
-        case 3:
-            return "Deja Vu Sans Mono";
-        case 5:
-            return "Comic Sans MS";
-        case 6:
-            return "Monotype Corsiva";
-        case 7:
-            return "Carrois Gothic SC";
+
+function addTag(textObj, pens, winPos, winStyle, videoSize) {
+
+    let startTags = "";
+    let endTags = "";
+
+    let p = pens[textObj.p];
+
+    let wp = winPos[textObj.wp];
+    let ws = winStyle[textObj.ws];
+
+    // bagian penStyles
+
+    if (p.styles.b) {
+        startTags += "\\b1";
+        endTags += "\\b0";
     }
+
+    if (p.styles.i) {
+        startTags += "\\i1";
+        endTags += "\\i0";
+    }
+
+    // if (p.u) {
+    //     startTags += "\\u1";
+    //     endTags += "\\u0";
+    // }
+
+    if (p.properties.sz != 100) {
+        p.properties.sz = p.properties.sz || 100;
+        startTags += `\\fs${p.properties.sz}`;
+    }
+
+    if (p.properties.fs != 4 && p.properties.fs != 0) {
+        startTags += `\\fn${getFontType(p.properties.fs)}`;
+    }
+
+    if (p.properties.fc != 16777215) {
+        startTags += `\\c${setColor(p.properties.fc,4)}`;
+    }
+
+    startTags += `\\1a${setColor(Math.abs(p.properties.fo - 255),1)}`;
+
+    if (p.properties.bc != 0) {
+        startTags += `\\3c${setColor(p.properties.bc,4)}`;
+    }
+
+    // console.log(p.properties.bo);
+
+    startTags += `\\3a${setColor(Math.abs(p.properties.bo - 255),1)}`;
+
+    // todo : cari tentang edge color
+    // todo : test underine, striketrough, and offset text on youtube
+    // todo : cari tentang ruby, superscript, dan subscript
+
+    // bagian winPos
+    let al = getAlign(wp.ap);
+    let [posX, posY] = [getPos(videoSize[0], wp.ah, al), getPos(videoSize[1], wp.av, al)];
+
+    startTags += `\\an${al}\\pos(${posX},${posY})`;
+
+    // bagian winStyle
+    // todo : cari tentang vertical text
+    // gatau mau isi apa
+
+    startTags = startTags === "" ? "" : `{${startTags}}`;
+    endTags = endTags === "" ? "" : `{${endTags}}`;
+
+    return `${startTags}${textObj.text}${endTags}`;
 }
 
-function setColor(color = 0, opacity = 0) {
-    // console.log(colors);
+var test = 0;
 
-    colorHEX = color.toString(16).toUpperCase();
-    opactityHEX = color ? opacity.toString(16).toUpperCase() : "";
+function writeEvents(penArray, winPosArray, winStyleArray, eventSegs, eventTime, penNumber = 0, winposNumber = 0, winStyleNumber = 0) {
+    // Video size dibutuhkan untuk /pos
+    const videoSize = [1920, 1080]; //  testing
 
-    return `&H${opactityHEX}${colorHEX}`;
+    let [start, end] = setTime(eventTime.t, eventTime.d);
+    let eventSeg = [];
+
+    eventSegs.forEach(seg => {
+
+        let newWord = "";
+        for (let i = 0; i < seg.utf8.length; i++) {
+            // console.log(seg.utf8[i].charCodeAt(0));
+
+            if (seg.utf8[i].charCodeAt(0) == 10) {
+                newWord += "\\N";
+            } else {
+                newWord += seg.utf8[i];
+            }
+        }
+
+        console.log(newWord);
+
+        eventSeg.push({
+            "text": newWord,
+            "p": seg.pPenId || penNumber,
+            "wp": winposNumber,
+            "ws": winStyleNumber
+        });
+
+    });
+
+    let taggedSeg = "";
+    let style = '';
+    eventSeg.forEach(segChild => {
+        if (penArray.length == winPosArray.length && winPosArray.length == winPosArray.length && penArray.length == 1) {
+            taggedSeg += segChild.text;
+            style = "Youtube Default";
+        } else {
+            taggedSeg += addTag(segChild, penArray, winPosArray, winStyleArray, videoSize);
+            style = "Default";
+        }
+    })
+
+
+    let layer = 0; //  default
+    let [name, marginL, marginR, marginV, effect] = ["", 0, 0, 0, ""];
+
+    return `Dialogue: ${layer},${start},${end},${style},${name},${marginL},${marginR},${marginV},${effect},${taggedSeg}\n`
+
 }
-
-function writeStyles(name, styleItem, winPosItem) {
-    // todo cari tentang styling outlineColor, secondaryColor, dll
-
-    console.log(winPosItem);
-
-
-    let fontSize = styleItem.properties.fs;
-
-    let foreColor = styleItem.properties.fc;
-    let foreOpacity = styleItem.properties.fo;
-    let backColor = styleItem.properties.bc;
-    let backOpacity = styleItem.properties.bo;
-
-    let primaryColor = setColor(foreColor, foreOpacity);
-    let secondaryColor = "&H000000FF"; //  default
-    let outlineColor = "&H000000FF"; //  default
-    let backgroundColor = setColor(backColor, backOpacity);
-
-    let fontType = styleItem.properties.fs;
-    fontType = getFontType(fontType);
-
-    let b = styleItem.styles.b;
-    let i = styleItem.styles.i;
-    let u = styleItem.u || 0;
-    let s = styleItem.s || 0;
-
-    let sx = 100; //  scaleX
-    let sy = 100; //  scaleY
-    let sp = 0; //  Spacing
-    let an = 0; //  Angle
-    let bs = 0; //  BorderStyle
-    let ol = 2; //  outline
-    let sh = 2 //  shadow
-
-    let al = winPosItem.ap || 7; //  alignment
-    let ml = winPosItem.ah;
-    let mr = winPosItem.ah;
-    let mv = winPosItem.av;
-
-    let en = 1 // encoding
-
-    // let edgeColor = styleItem.et;
-    return `Style: ${name},${fontType},${fontSize},${primaryColor},${secondaryColor},${outlineColor},${backgroundColor},${b},${i},${u},${s},${sx},${sy},${sp},${an},${bs},${ol},${sh},${al},${ml},${mr},${mv},${en}\n`;
-}
-
 
 // bungkus ke satu fungsi 
 function convert(jsonObj) {
@@ -195,20 +345,46 @@ function convert(jsonObj) {
         pens.push(getPenStyles(pen));
     });
 
+
     let winStyles = [];
     jsonObj.wsWinStyles.forEach(ws => {
         winStyles.push(getWinStyles(ws));
     });
+
 
     let winPositions = [];
     jsonObj.wpWinPositions.forEach(wp => {
         winPositions.push(getWinPos(wp));
     });
 
-    let styles = `Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n`;
 
-    let i = 0;
-    styles += writeStyles(i, pens[1], winPositions[1]);
+    let eventRaw = [];
+    jsonObj.events.forEach(e => {
+        eventRaw.push(getEvents(e));
+    });
 
-    console.log(styles);
+    // console.log(eventRaw);
+
+    let stylesSub = `[V4+ Styles]
+    Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n`;
+
+    //  setting style default
+
+    if (pens.length == winPositions.length && winPositions.length == winStyles.length && pens.length == 1) {
+        // youtube default
+        stylesSub += "Style: Youtube Default,Roboto,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,2,2,10,10,10,1";
+    } else {
+        // styled subs
+        stylesSub += "Style: Default,Roboto,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,2,2,10,10,10,1\n";
+    }
+
+    let eventsSub = `[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n`;
+    eventRaw.forEach(eventItem => {
+        eventsSub += writeEvents(pens, winPositions, winStyles, eventItem.segs, eventItem.time, eventItem.p, eventItem.win.wp, eventItem.win.ws);
+    });
+
+    console.log(stylesSub);
+    console.log(eventsSub);
+
+    return ([stylesSub, eventsSub]);
 }
