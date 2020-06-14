@@ -1,6 +1,51 @@
 # Tested
 
 #   1
-Kaguya-Sama: Love is War Season 2 Ending Full - 『Kaze ni Fukarete』by Haruka Fukuhara
-https://www.youtube.com/watch?v=1VP3mrV7TGI
-sub : japanese
+title   : Kaguya-Sama: Love is War Season 2 Ending Full - 『Kaze ni Fukarete』by Haruka Fukuhara
+url     : https://www.youtube.com/watch?v=1VP3mrV7TGI
+sub     : japanese
+note    : edgetype belum ditest, tapi hasilnya hampir sama
+
+#   2
+title   : 須田景凪「veil」MV
+url     : https://www.youtube.com/watch?v=n7VZxg9pxkg
+sub     : english
+note    : text mengalami overflow (kebablasan) di aegisub, hal ini bisa dilihat juga pada theater mode (youtube)
+
+#   3
+title   : ダダダダ天使 / ナナヲアカリ
+url     : https://www.youtube.com/watch?v=ANp0qch3XVM
+sub     : japanese (default)
+note    : success
+
+#   4
+title   : HIMEHINA『劣等上等(Cover)』MV
+url     : https://www.youtube.com/watch?v=il4cAeVzZwI
+sub     : english
+note    : success (even more than youtube does lol)
+
+#   5
+title   : ヨルシカ - 雨とカプチーノ(Official Video)
+url     : https://www.youtube.com/watch?v=PWbRleMGagU
+sub     : indonesia
+note    : edgetype belum ditest, tapi hasilnya hampir sama
+
+#   6
+title   : Kizuna AI - AIAIAI (feat. 中田ヤスタカ)【Official Music Video】
+url     : https://www.youtube.com/watch?v=S8dmq5YIUoc
+sub     : english
+note    : 
+issue   : fitur edgetype belum ada
+
+# Untested
+
+title   : HIMEHINA『劣等上等(Cover)』MV
+url     : https://www.youtube.com/watch?v=il4cAeVzZwI
+sub     : japanese
+issue   : fitur karaoke belum ada
+
+
+
+
+
+
