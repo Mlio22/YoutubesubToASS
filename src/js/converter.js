@@ -30,7 +30,7 @@ function getFontType(fontNumber) {
     }
 }
 
-function setColor(color = 0, maxNumber) {
+function setColor(color = 0, maxNumber = 4) {
     // console.log(colors);
     let colorHex = "";
     for (let i = maxNumber; i >= 0; i--) {
@@ -45,8 +45,18 @@ function setColor(color = 0, maxNumber) {
         }
     }
 
-    if (colorHex.length < 6) {
+    if (colorHex.length == 5) {
         colorHex += "0";
+    }
+
+    // HEX color -> ASS color
+    // HEX (ABCDEF) -> ASS (EFCDAB)
+
+
+    if (colorHex.length == 6) {
+        colorHex = colorHex.substring(4, 6) + colorHex.substring(2, 4) + colorHex.substring(0, 2);
+    } else if (colorHex.length == 3) {
+        colorHex = colorHex[2] + colorHex[1] + colorHex[0];
     }
 
     return `&H${colorHex.toUpperCase()}&`;
@@ -75,6 +85,10 @@ function convertTime(time) {
         time = "0" + time;
     }
 
+    if (time.length == 3) {
+        time = time.substring(0, time.length - 1)
+    }
+
     detik += "";
     if (detik.length < 2) {
         detik = "0" + detik;
@@ -99,7 +113,6 @@ function setTime(startMs, durationMs) {
 
 function getPos(total, percentage, alignment) {
 
-
     let result = ((percentage * total) / 100);
     // console.log(result);
 
@@ -112,6 +125,8 @@ function getPenStyles(penObj) {
     let u = penObj.uAttr || 0; //  underline
     let s = penObj.sAttr || 0; //  striketrough
     let of = penObj.ofOffset || 2; //  Offset (subscript/superscript)
+    let et = penObj.etEdgeType || 0;
+
     // rubyText is still unknown
 
 
@@ -126,7 +141,7 @@ function getPenStyles(penObj) {
     let fo = nullCheck(penObj.foForeAlpha, 254);
     let bc = nullCheck(penObj.bcBackColor, 526344); //  default youtube : 526344 (8, 8, 8)
     let bo = nullCheck(penObj.boBackAlpha, 191);
-    let et = penObj.etEdgeType || 0;
+    let ec = nullCheck(penObj.ecEdgeColor, 0);
 
     return {
         "styles": {
@@ -140,6 +155,7 @@ function getPenStyles(penObj) {
             "fo": fo,
             "bc": bc,
             "bo": bo,
+            "ec": ec,
             "et": et
         }
     }
@@ -214,6 +230,16 @@ function getAlign(number) {
     }
 }
 
+function getFontSize(fs) {
+    if (fs == 100) {
+        return 15;
+    } else if (fs < 100) {
+        return (15 - Math.floor((100 - fs) / 26.5));
+    } else if (fs > 100) {
+        return (15 + Math.floor((fs - 100) / 26.5));
+    }
+}
+
 
 function addTag(textObj, pens, winPos, winStyle, videoSize) {
 
@@ -244,7 +270,10 @@ function addTag(textObj, pens, winPos, winStyle, videoSize) {
 
     if (p.properties.sz != 100) {
         p.properties.sz = p.properties.sz || 100;
-        startTags += `\\fs${p.properties.sz}`;
+
+        let fs = getFontSize(p.properties.sz);
+
+        startTags += `\\fs${fs}`;
     }
 
     if (p.properties.fs != 4 && p.properties.fs != 0) {
@@ -258,12 +287,12 @@ function addTag(textObj, pens, winPos, winStyle, videoSize) {
     startTags += `\\1a${setColor(Math.abs(p.properties.fo - 255),1)}`;
 
     if (p.properties.bc != 0) {
-        startTags += `\\3c${setColor(p.properties.bc,4)}`;
+        startTags += `\\4c${setColor(p.properties.bc,4)}`;
     }
 
     // console.log(p.properties.bo);
 
-    startTags += `\\3a${setColor(Math.abs(p.properties.bo - 255),1)}`;
+    startTags += `\\4a${setColor(Math.abs(p.properties.bo - 255),1)}`;
 
     // todo : cari tentang edge color
     // todo : test underine, striketrough, and offset text on youtube
@@ -285,11 +314,9 @@ function addTag(textObj, pens, winPos, winStyle, videoSize) {
     return `${startTags}${textObj.text}${endTags}`;
 }
 
-var test = 0;
-
 function writeEvents(penArray, winPosArray, winStyleArray, eventSegs, eventTime, penNumber = 0, winposNumber = 0, winStyleNumber = 0) {
     // Video size dibutuhkan untuk /pos
-    const videoSize = [1920, 1080]; //  testing
+    const videoSize = [384, 288]; //  testing
 
     let [start, end] = setTime(eventTime.t, eventTime.d);
     let eventSeg = [];
@@ -307,7 +334,7 @@ function writeEvents(penArray, winPosArray, winStyleArray, eventSegs, eventTime,
             }
         }
 
-        console.log(newWord);
+        // console.log(newWord);
 
         eventSeg.push({
             "text": newWord,
@@ -351,12 +378,10 @@ function convert(jsonObj) {
         winStyles.push(getWinStyles(ws));
     });
 
-
     let winPositions = [];
     jsonObj.wpWinPositions.forEach(wp => {
         winPositions.push(getWinPos(wp));
     });
-
 
     let eventRaw = [];
     jsonObj.events.forEach(e => {
@@ -372,10 +397,10 @@ function convert(jsonObj) {
 
     if (pens.length == winPositions.length && winPositions.length == winStyles.length && pens.length == 1) {
         // youtube default
-        stylesSub += "Style: Youtube Default,Roboto,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,2,2,10,10,10,1";
+        stylesSub += "Style: Youtube Default,Roboto,15,&H00FFFFFF,&H000000FF,&H3F000000,&HFF000000,0,0,0,0,100,100,1,0,3,2,0,2,10,10,10,1";
     } else {
         // styled subs
-        stylesSub += "Style: Default,Roboto,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,2,2,10,10,10,1\n";
+        stylesSub += "Style: Default,Roboto,15,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.5,2,2,10,10,10,1\n";
     }
 
     let eventsSub = `[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n`;
@@ -383,8 +408,8 @@ function convert(jsonObj) {
         eventsSub += writeEvents(pens, winPositions, winStyles, eventItem.segs, eventItem.time, eventItem.p, eventItem.win.wp, eventItem.win.ws);
     });
 
-    console.log(stylesSub);
-    console.log(eventsSub);
+    // console.log(stylesSub);
+    // console.log(eventsSub);
 
     return ([stylesSub, eventsSub]);
 }
