@@ -3,7 +3,7 @@ a Website to collect Youtube styled subtitles created by Aegisub to .ASS format 
 
 
 ## Usage
-1. Open Network monitor in developer mode
+1. Open Network monitor in developer mode and set filter 'timedtext' (without the qoutes)
 ![opening network monitor](https://github.com/Mlio22/YTstyledsubToASS/blob/master/howto/step1.png?raw=true)
 
 2. Select language that you're prefer
