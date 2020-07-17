@@ -1,3 +1,12 @@
+// import langData from "./countryCode.js"
+
+/**
+ * todo: menampilkan UI yang lebih bagus
+ * todo: menampilkan list daftar bahasa yang bisa menjadi .ass dan tidak
+ * todo: clue => https://www.youtube.com/api/timedtext?v=1VP3mrV7TGI&lang=ja&fmt=json3
+ */
+
+
 /*
     Output dari program ini adalah sub .ass
     yang memiliki maksimal koordinat (X = 384, Y = 288)
@@ -63,7 +72,6 @@ function getFontType(fontNumber) {
 }
 
 function setColor(color = 0, maxNumber = 5) {
-    let first = color;
     /* 
     fungsi ini mengubah nilai DEC color menjadi ASS color
     */
@@ -154,8 +162,6 @@ function getPenStyles(penObj) {
 
     //  untested Bois
     let of = nullCheck(penObj.ofOffset, 2); //  Offset (subscript/superscript)
-    let et = penObj.etEdgeType || 0;
-    let ec = nullCheck(penObj.ecEdgeColor, 0);
 
     // rubyText is still unknown
 
@@ -166,7 +172,7 @@ function getPenStyles(penObj) {
 
 
     // Text Properties
-    let sz = nullCheck(penObj.szPenSize);
+    let sz = nullCheck(penObj.szPenSize, 100);
     let fs = penObj.fsFontStyle || 4;
 
     /* 
@@ -190,8 +196,15 @@ function getPenStyles(penObj) {
     */
 
     let fo = nullCheck(penObj.foForeAlpha, 254); // default : 254 (paling jelas)
-    let bo = nullCheck(penObj.boBackAlpha, 0); // default : 0 (transparan)  
+    let bo = nullCheck(penObj.boBackAlpha, 0); // default : 0 (transparan)
 
+    /**
+     * Shadowing dalam aegisub tidak berpengaruh pada youtube sub
+     * Yang berpengaruh adalah ecEdgeColor dan etEdgeType dari yttsubconverter
+     */
+
+    let et = penObj.etEdgeType || 0;
+    let ec = penObj.ecEdgeColor || 0;
 
     return {
         "styles": {
@@ -206,8 +219,8 @@ function getPenStyles(penObj) {
             "fo": fo, //  foreground opacity
             "bc": bc, //  background color
             "bo": bo, //  background opacity
-            // "ec": ec,
-            // "et": et
+            "ec": ec,
+            "et": et
         }
     }
 }
@@ -309,6 +322,7 @@ function getAlign(number) {
 }
 
 function getFontSize(fs) {
+    // todo: lakukan tes lebih lanjut penggunaan font di youtube
     /*
         berdasarkan penjelasan pada bagian paling awal program
         pada ukuran video (virtual) adalah X = 384 dan Y = 288
@@ -342,7 +356,7 @@ function getFontSize(fs) {
     } else if (fs > 100) {
         return (15 + Math.floor((fs - 100) / 26.5));
     } else if (fs == 1) {
-        return 1;
+        return 10;
     }
 }
 
@@ -388,7 +402,6 @@ function addTag(textObj, pens, winPos, winStyle, videoSize) {
 
     if (p.properties.sz != 100) {
         let sz = getFontSize(p.properties.sz);
-
         startTags += `\\fs${sz}`;
     }
 
@@ -583,7 +596,7 @@ function convert(jsonObj) {
         stylesSub += "Style: Youtube Default,Roboto,15,&H00FFFFFF,&H000000FF,&H3F000000,&HFF000000,0,0,0,0,100,100,0,0,3,2,0,2,10,10,10,1";
     } else {
         // styled subs
-        stylesSub += `Style: Default,Roboto,15,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.5,0,2,10,10,10,1
+        stylesSub += `Style: Default,Roboto,15,&H00FFFFFF,&HFF000000,&HFF000000,&H00000000,0,0,0,0,100,100,0,0,1,0.5,0,2,10,10,10,1
         Style: Default Opaque,Roboto,15,&H00FFFFFF,&HFF000000,&H00000000,&HFE000000,0,0,0,0,100,100,0,0,3,0.5,0,2,10,10,10,1
         Style: Default Karaoke,Roboto,15,&H00FFFFFF,&HFF000000,&H00000000,&HFE000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1`;
     }

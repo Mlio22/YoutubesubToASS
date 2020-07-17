@@ -27,7 +27,7 @@ note    : success (even more than youtube does lol)
 #   5
 title   : ヨルシカ - 雨とカプチーノ(Official Video)
 url     : https://www.youtube.com/watch?v=PWbRleMGagU
-sub     : indonesia
+sub     : indonesian
 note    : edgetype belum ditest, tapi hasilnya hampir sama
 
 #   6
@@ -46,6 +46,27 @@ note    : success
 #   8
 title   : ヨルシカ - 心に穴が空いた (Music Video)
 url     : https://www.youtube.com/watch?v=DlyG6MAKUOA
-sub     : indonesia
-note    : fitur edgetype belum ada
+sub     : indonesian
+issue   : fitur edgetype belum ada
+
+#   9
+title   : Kano →「 Glow 」
+url     : https://www.youtube.com/watch?v=Go5i1Q9gxGI
+sub     : english
+note    : success
+
+#   10
+title   : I don’t need adolescence / Phantasia in March Covered by Nonono Nonomiya 【Hanayori Girls’ Dormitory】
+url     : https://www.youtube.com/watch?v=FWUAM_2dpNw
+sub     : indonesian
+issue   : tulisan subtitle default terlalu kebawah, butuh dinaikkan sedikit
+
+#   11
+title   : Turing Love feat. Sou / Nanawo Akari
+url     : https://www.youtube.com/watch?v=L-MVk5I6wjo
+sub     : english
+issue   : 1. warna tulisan dan video terlalu kontras, sehingga membutuhkan opaque box.
+          2. jumlah text output terlalu banyak, walau sesuai dengan file json api youtube.
+
+
 # Untested

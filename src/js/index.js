@@ -1,13 +1,16 @@
 const sourceInput = document.getElementById("sourceUrl");
 const searchButton = document.querySelector(".searchSource button");
 const templateResult = document.querySelector(".result p.templateAss");
+
 const styleResult = document.querySelector(".result p.style");
 const eventResult = document.querySelector(".result p.event");
 
+// fetch("https://www.youtube.com/watch?v=tYcQ6BTvVQw")
+//     .then(response => console.log(response))
 
-let jsonData;
 
 searchButton.addEventListener("click", _ => {
+    let jsonData;
     const url = sourceInput.value;
 
     fetch(url)
@@ -26,7 +29,7 @@ searchButton.addEventListener("click", _ => {
             PlayResX: 384
             PlayResY: 288
             YCbCr Matrix: None
-            
+
             [Aegisub Project Garbage]\n
             `;
 
